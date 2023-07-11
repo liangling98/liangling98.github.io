@@ -1,8 +1,5 @@
 # main links links
 main:
-  - title: "Portfolio"
-    url: /files/LingLiangCVMar2023.pdf
-
   - title: "Publications"
     url: /publications/
 
@@ -13,4 +10,4 @@ main:
     url: /teaching/    
     
   - title: "CV"
-    url: /cv/
+    url: /files/LingLiangCVMar2023.pdf
