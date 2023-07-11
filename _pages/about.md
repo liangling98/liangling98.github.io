@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Fellow at the Department of Mathematics of National University of Singapore working on Optimization. I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. TOH Kim-Chuan](https://blog.nus.edu.sg/mattohkc/).
+I am currently a Research Fellow at the Department of Mathematics of National University of Singapore working on Optimization. I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/).
 
 My current research interests are:
 - Optimization: design, analyze and implement efficient algorithmic frameworks for solving large-scale optimization problems, including conic programming problems, nonsmooth optimization problems, nonlinear programming problems, and their applications
