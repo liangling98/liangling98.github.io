@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ling's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Ling Liang"
 description              : &description "Welcome"

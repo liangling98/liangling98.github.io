@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Greetings!"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -39,6 +39,5 @@ News
 - SIAM OP23 at Seattle, 27-05-2023 - 04-06-2023.
 - Join WIAS as a Postdoctoral Researcher, 01-03-2023.
 
-Visitors
 ======
 <a href="https://info.flagcounter.com/3SGt"><img src="https://s11.flagcounter.com/count2/3SGt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
