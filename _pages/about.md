@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Research Fellow at the Department of Mathematics of National University of Singapore working on Optimization. I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/).
+I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, supervised by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/).
 
 My current research interests are:
 - Optimization: design, analyze and implement efficient algorithmic frameworks for solving large-scale optimization problems, including conic programming problems, nonsmooth optimization problems, nonlinear programming problems, and their applications
@@ -17,8 +17,11 @@ My current research interests are:
 
 Experiences
 ======
+- Postdoctoral Associate, University of Maryland at College Park
+  - 01-08-2023 - present
+  - Advisor: Prof. Haizhao Yang 
 - Research Fellow, National University of Singapore
-  - 17-01-2022 - present
+  - 17-01-2022 - 31-07-2023
   - Advisor: Prof. Kim-Chuan Toh
 - Visiting Postdoctoral Researcher, Weierstrasse Institute for Applied Analysis and Stochastics
   - 01-03-2023 - 30-06-2023
