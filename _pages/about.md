@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, supervised by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). This is my [CV](/files/CV2023Oct.pdf).
+I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, supervised by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (01 July 2017) in Mathematics from University of Science and Technology of China (USTC) and Ph.D. (30 November 2021) in Mathematics from National University of Singapore (NUS) where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). 
+
+This is my [CV](/files/CV2023Oct.pdf).
 
 Current research interests
 ======
@@ -30,5 +32,3 @@ Experiences
 - Research Assistant, National University of Singapore
   - 01-08-2021 - 31-12-2021
   - Advisor: Prof. Kim-Chuan Toh
-
-<a href="https://info.flagcounter.com/3SGt"><img src="https://s11.flagcounter.com/count2/3SGt/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
