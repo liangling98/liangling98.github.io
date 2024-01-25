@@ -1,5 +1,5 @@
 ---
-title: "MATH401 Applications of Linear Algebra"
+title: "MATH401 Applications of Linear Algebra (Spring 2024)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024spring
