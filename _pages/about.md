@@ -15,8 +15,8 @@ This is my [CV](/files/CV2023Oct.pdf).
 Current research interests
 ======
 - Optimization
+- Scientific Computing
 - Machine Learning and Data Science
-- Numerical Computation
 
 Experiences
 ======
