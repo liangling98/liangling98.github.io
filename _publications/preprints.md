@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/preprints
 ---
 
-- Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Jia-Jie Zhu](https://jj-zhu.github.io/). An Inexact Halpern Iteration for Application to Distributionally Robust Optimization, 2024. [arXiv](https://arxiv.org/abs/2402.06033)
+- Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Jia-Jie Zhu](https://jj-zhu.github.io/). An Inexact Halpern Iteration with Application to Distributionally Robust Optimization, 2024. [arXiv](https://arxiv.org/abs/2402.06033)
 - Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). On the Stochastic (Variance-Reduced) Proximal Gradient Method for Regularized Expected Reward Optimization, 2024. [arXiv](https://arxiv.org/abs/2401.12508) 
 - Di Hou, Ling Liang, and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A sparse smoothing Newton method for solving discrete optimal transport problems, 2023. [arXiv](https://arxiv.org/abs/2311.06448)
 - [Lei Yang](https://sites.google.com/site/yangleimath/), Ling Liang, [Hong T.M. Chu](https://scholar.google.com/citations?user=ZLXxF3YAAAAJ&hl=en), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A corrected inexact proximal augmented Lagrangian method with a relative error criterion for a class of group-quadratic regularized optimal transport problems, 2023. [arXiv](https://arxiv.org/abs/2311.01976)
