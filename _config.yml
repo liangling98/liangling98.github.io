@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Ling LIANG (梁令)"
-  avatar           : "lianglingbio.jpeg"
+  avatar           : "lingliang.jpg"
   bio              : "Postdoctoral Associate"
-  location         : "USA"
+  location         : #"USA"
   employer         : "University of Maryland at College Park"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=81u-WasAAAAJ&hl=en"
