@@ -15,5 +15,5 @@ I am currently a Postdoctoral Associate at the Department of Mathematics of Univ
 Current research interests
 ======
 - **Optimization**: Fast algorithms for large-scale conic programming and its applications
-- **Machine Learning and Data Science**: Optimal experimental design and learning to optimize
+- **Machine Learning and Data Science**: Optimal experimental design and learn to optimize
 - **Scientific Computing**: Numerical linear algebra and numerical analysis
