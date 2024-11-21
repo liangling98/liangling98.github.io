@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/preprints
 ---
 
+- Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
 - Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392)
 - Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320)
 - Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Vertex exchange method for a class of convex quadratic programming problems, 2024. [arXiv](https://arxiv.org/abs/2407.03294)  
