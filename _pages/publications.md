@@ -30,5 +30,5 @@ author_profile: true
 9. [Ying Cui](https://sites.google.com/site/optyingcui/home), Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). On degenerate doubly nonnegative projection problems. Mathematics of Operations Research 47, no. 3 (2022): 2219-2239. [arXiv](https://arxiv.org/abs/2009.11272), [MOOR](https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1205)
 10. [Quoc Tran-Dinh](https://quoctd.web.unc.edu/), Ling Liang, and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A new homotopy proximal variable-metric framework for composite convex minimization. Mathematics of Operations Research 47, no. 1 (2022): 508-539. [arXiv](https://arxiv.org/abs/1812.05243), [MOOR](https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1138)
 
-#2011
+## 2011
 11. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). An inexact augmented Lagrangian method for second-order cone programming with applications. SIAM Journal on Optimization 31, no. 3 (2021): 1748-1773. [arXiv](https://arxiv.org/abs/2010.08772), [SIOPT](https://epubs.siam.org/doi/abs/10.1137/20M1374262)
