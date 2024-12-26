@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, supervised by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (June 2017) in Mathematics from University of Science and Technology of China, and Ph.D. (November 2021) in Mathematics from National University of Singapore where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). 
+I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, hosted by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (June 2017) in Mathematics from University of Science and Technology of China, and Ph.D. (November 2021) in Mathematics from National University of Singapore where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). 
 
 **I am on the job market for a tenure-track position**. Here is my [CV](/files/CV_LING_LIANG.pdf).
 
