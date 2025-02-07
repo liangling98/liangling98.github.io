@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Greetings!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,12 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Associate at the Department of Mathematics of University of Maryland at College Park working on Optimization and Scientific Machine Learning, hosted by [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I received my B.S. (June 2017) in Mathematics from University of Science and Technology of China, and Ph.D. (November 2021) in Mathematics from National University of Singapore where I was fortunate to be advised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). 
+I am currently a Postdoctoral Associate in the Department of Mathematics at the University of Maryland, College Park, where I work on Optimization and Scientific Machine Learning with [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I earned my B.S. in Mathematics from the University of Science and Technology of China in June 2017 and my Ph.D. in Mathematics (fortunately supervised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)) from the National University of Singapore in November 2021. 
 
-**I am on the job market for a tenure-track position**. Here is my [CV](/files/CV_LING_LIANG.pdf).
-
-Current research interests
-======
-- **Optimization**: Fast algorithms for large-scale conic programming and its applications
-- **Machine Learning and Data Science**: Optimal experimental design and learn to optimize
-- **Scientific Computing**: Numerical linear algebra and numerical analysis
+My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions.
