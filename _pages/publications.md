@@ -30,3 +30,6 @@ author_profile: true
 
 ## Conference Proceedings
 1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, WAFR 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/)
+
+## Ph.D. Dissertation
+[Augmented Lagrangian Methods for A Class of Large-Scale Conic Programming](https://www.proquest.com/docview/2724233842?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses), 2021.
