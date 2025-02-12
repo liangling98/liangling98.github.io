@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Homepage"
+title                    : #"Ling Liang"
 title_separator          : "-"
 name                     : &name "Ling Liang"
 description              : &description "Welcome"
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ling LIANG (梁令)"
+  name             : "Ling Liang (梁令)"
   avatar           : "lingliang.jpg"
   bio              : "Postdoctoral Associate"
   location         : #"USA"
-  employer         : "University of Maryland at College Park"
+  employer         : "UMD"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=81u-WasAAAAJ&hl=en"
   email            : "liang.ling@u.nus.edu"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-0671-9561"
+  orcid            : #"https://orcid.org/my-orcid?orcid=0000-0003-0671-9561"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
