@@ -10,4 +10,73 @@ redirect_from:
 
 I am currently a Postdoctoral Associate in the Department of Mathematics at the University of Maryland, College Park, where I work on Optimization and Scientific Machine Learning with [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I earned my B.S. in Mathematics from the University of Science and Technology of China in June 2017 and my Ph.D. in Mathematics (fortunately supervised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)) from the National University of Singapore in November 2021. 
 
+## Research Interest
 My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions.
+
+## Papers
+
+### Preprints
+1. Di Wu, Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport, 2025. [arXiv](https://arxiv.org/abs/2502.03749)
+2. Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
+3. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392), [CODE](https://github.com/liangling98/PNOD.jl)
+4. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320)
+5. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Vertex exchange method for a class of convex quadratic programming problems, 2024. [arXiv](https://arxiv.org/abs/2407.03294)  
+6. Ling Liang, [Qiyuan Pang](https://scholar.google.com/citations?user=c6yzSHwAAAAJ&hl=en), [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems, 2024. [arXiv](https://arxiv.org/abs/2407.03272)
+7. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Jia-Jie Zhu](https://jj-zhu.github.io/). An inexact Halpern iteration with application to distributionally robust optimization, 2024. [arXiv](https://arxiv.org/abs/2402.06033)
+   
+
+### Journal Publications
+1. [Ching-pei Lee](https://leepei.github.io/), Ling Liang, [Tianyun Tang](https://ttymath.github.io/tianyuntang.github.io/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). Accelerating nuclear-norm regularized low-rank matrix optimization through Burer-Monteiro decomposition, Journal of Machine Learning Research, 2024. [arXiv](https://arxiv.org/abs/2204.14067), [JMLR](https://jmlr.org/papers/v25/23-0049.html), [CODE](https://github.com/leepei/BM-Global/)
+2. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A squared smoothing Newton method for semidefinite programming. Mathematics of Operations Research, 2024. [arXiv](https://arxiv.org/abs/2303.05825) [MOOR](https://pubsonline.informs.org/doi/full/10.1287/moor.2023.0311)
+3. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). On the stochastic (variance-reduced) proximal gradient method for regularized expected reward optimization, Transactions on Machine Learning Research, 2024. [arXiv](https://arxiv.org/abs/2401.12508), [TMLR](https://openreview.net/forum?id=Ve4Puj2LVT)
+4. Di Hou, Ling Liang, and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A sparse smoothing Newton method for solving discrete optimal transport problems, ACM Transactions on Mathematical Software 50, no. 3 (2024): 1--26. [arXiv](https://arxiv.org/abs/2311.06448), [TOMS](https://dl.acm.org/doi/10.1145/3688800)
+5. [Lei Yang](https://sites.google.com/site/yangleimath/), Ling Liang, [Hong T.M. Chu](https://sites.google.com/view/hongtmchu), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A corrected inexact proximal augmented Lagrangian method with a relative error criterion for a class of group-quadratic regularized optimal transport problems. Journal of Scientific Computing 99, no. 79 (2024). [arXiv](https://arxiv.org/abs/2311.01976) [J. Sci. Comput.](https://rdcu.be/dGWDG)
+6. [Hong T.M. Chu](https://scholar.google.com/citations?user=ZLXxF3YAAAAJ&hl=en), Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Lei Yang](https://sites.google.com/site/yangleimath/). An efficient implementable inexact entropic proximal point algorithm for a class of linear programming problems. Computational Optimization and Applications 85, no. 1 (2023): 107--146. [arXiv](https://arxiv.org/abs/2011.14312), [COAP](https://link.springer.com/article/10.1007/s10589-023-00459-2), [CODE](https://blog.nus.edu.sg/mattohkc/softwares/ieppa/)
+7. [Heng Yang](https://hankyang.seas.harvard.edu/), Ling Liang, [Luca Carlone](https://lucacarlone.mit.edu/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). An inexact projected gradient method with rounding and lifting by nonlinear programming for solving rank-one semidefinite relaxation of polynomial optimization. Mathematical Programming 201, no. 1--2 (2023): 409--472. [arXiv](https://arxiv.org/abs/2105.14033), [MP](https://link.springer.com/article/10.1007/s10107-022-01912-6), [CODE](https://github.com/MIT-SPARK/STRIDE)
+8. Ling Liang, [Xudong Li](http://www.lixudong.info/), [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). QPPAL: A two-phase proximal augmented Lagrangian method for high dimensional convex quadratic programming problems. ACM Transactions on Mathematical Software 48, no. 3 (2022): 1-27. [arXiv](https://arxiv.org/abs/2103.13108), [TOMS](https://dl.acm.org/doi/full/10.1145/3476571), [CODE](https://blog.nus.edu.sg/mattohkc/softwares/qppal/)
+9. [Ying Cui](https://sites.google.com/site/optyingcui/home), Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). On degenerate doubly nonnegative projection problems. Mathematics of Operations Research 47, no. 3 (2022): 2219-2239. [arXiv](https://arxiv.org/abs/2009.11272), [MOOR](https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1205)
+10. [Quoc Tran-Dinh](https://quoctd.web.unc.edu/), Ling Liang, and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A new homotopy proximal variable-metric framework for composite convex minimization. Mathematics of Operations Research 47, no. 1 (2022): 508-539. [arXiv](https://arxiv.org/abs/1812.05243), [MOOR](https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1138)
+11. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). An inexact augmented Lagrangian method for second-order cone programming with applications. SIAM Journal on Optimization 31, no. 3 (2021): 1748-1773. [arXiv](https://arxiv.org/abs/2010.08772), [SIOPT](https://epubs.siam.org/doi/abs/10.1137/20M1374262)
+
+### Conference Proceedings
+1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, WAFR 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/)
+
+### Ph.D. Dissertation
+[Augmented Lagrangian Methods for A Class of Large-Scale Conic Programming](https://www.proquest.com/docview/2724233842?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses), 2021.
+
+## Invited Talks
+1. The 25th International Symposium on Mathematical Programming, Montreal, Canada, July 2024
+2. 2024 INFORMS Optimization Society Conference, Rice University, Houston, Texas, USA, March 2024
+3. Workshop of Scientific Machine Learning: Theory and Algorithms, University of Maryland at College Park, Maryland, USA, February 2024
+4. SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, Washington, USA, May 2023
+5. Hua Luogeng Youth Forum in Applied Mathematics, Institute of Applied Mathematics, AMSS, CAS, Online Conference, March 2023
+6. SIAM Conference on Optimization, Online Conference, July 2021
+7. Workshop on Matrix Optimization, Beijing University of Technology, Beijing, China, December 2019
+8. The Sixth International Conference on Continuous Optimization, TU Berlin, Berlin, Germany, August 2019
+
+## Teaching
+- Spring 2025, AMSC460 Computational Methods, Department of Mathematics, UMD
+- Fall 2024, MATH241 Calculus III, Department of Mathematics, UMD
+- Spring 2024, MATH401 Applications of Linear Algebra, Department of Mathematics, UMD
+- Fall 2023, AMSC460 Computational Methods, Department of Mathematics, UMD
+
+## Services
+
+### Review
+- Mathematical Programming
+- SIAM Journal on Optimization
+- Mathematical Programming Computation
+- SIAM Journal on Mathematics of Data Science
+- Computational Optimization and Applications
+- Journal of Scientific Computing
+- INFORMS Journal on Computing
+- Optimization Methods and Software
+- Journal of Industrial and Management Optimization
+- Asia-Pacific Journal of Operational Research
+- Transactions on Machine Learning Research
+
+### Organization
+- Organizer, [Workshop on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
+- Session Chair, Conic and Semidefinite Optimization, USC ([ICCOPT 2025](https://sites.google.com/view/iccopt2025/home))
+- Organizer, [Numerical Analysis Seminar](https://www-math.umd.edu/research/seminars/numerical-analysis-seminar.html), UMD (Fall 2024 - present)
+- Session Chair, [Optimization in the Big Data Era](https://ims.nus.edu.sg/events/optimization-in-the-big-data-era/), NUS (2022)
