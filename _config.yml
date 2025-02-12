@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : #"Ling Liang"
-title_separator          : "-"
+title_separator          : #"-"
 name                     : &name "Ling Liang"
 description              : &description "Welcome"
 url                      : https://liangling98.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
