@@ -77,6 +77,6 @@ My research focuses on the development, analysis, and implementation of efficien
 
 ### Organization
 - Organizer, [Workshop on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
-- Session Chair, [2025 International Conference on Continuous Optimization](https://sites.google.com/view/iccopt2025/home), USC (Summer 2025)
+- Session Chair, [International Conference on Continuous Optimization](https://sites.google.com/view/iccopt2025/home), USC (Summer 2025)
 - Organizer, [Numerical Analysis Seminar](https://www-math.umd.edu/research/seminars/numerical-analysis-seminar.html), UMD (Fall 2024 - Spring 2025)
 - Session Chair, [Optimization in the Big Data Era](https://ims.nus.edu.sg/events/optimization-in-the-big-data-era/), NUS (Winter 2022)
