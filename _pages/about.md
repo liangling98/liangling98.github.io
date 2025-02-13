@@ -45,14 +45,14 @@ My research focuses on the development, analysis, and implementation of efficien
 [Augmented Lagrangian Methods for A Class of Large-Scale Conic Programming](https://www.proquest.com/docview/2724233842?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses), 2021.
 
 ## Invited Talks
-1. The 25th International Symposium on Mathematical Programming, Montreal, Canada, July 2024
-2. 2024 INFORMS Optimization Society Conference, Rice University, Houston, Texas, USA, March 2024
-3. Workshop of Scientific Machine Learning: Theory and Algorithms, University of Maryland at College Park, Maryland, USA, February 2024
-4. SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, Washington, USA, May 2023
-5. Hua Luogeng Youth Forum in Applied Mathematics, Institute of Applied Mathematics, AMSS, CAS, Online Conference, March 2023
-6. SIAM Conference on Optimization, Online Conference, July 2021
-7. Workshop on Matrix Optimization, Beijing University of Technology, Beijing, China, December 2019
-8. The Sixth International Conference on Continuous Optimization, TU Berlin, Berlin, Germany, August 2019
+1. The 25th International Symposium on Mathematical Programming, Montreal, July 2024
+2. 2024 INFORMS Optimization Society Conference, Rice University, March 2024
+3. Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
+4. SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, May 2023
+5. Hua Luogeng Youth Forum in Applied Mathematics, Institute of Applied Mathematics, AMSS, March 2023
+6. SIAM Conference on Optimization, Online, July 2021
+7. Workshop on Matrix Optimization, Beijing University of Technology, Beijing, December 2019
+8. The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
 - Spring 2025, AMSC460 Computational Methods, Department of Mathematics, UMD
