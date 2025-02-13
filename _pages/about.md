@@ -49,9 +49,9 @@ My research focuses on the development, analysis, and implementation of efficien
 2. 2024 INFORMS Optimization Society Conference, Rice University, March 2024
 3. Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
 4. SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, May 2023
-5. Hua Luogeng Youth Forum in Applied Mathematics, Institute of Applied Mathematics, AMSS, March 2023
+5. Hua Luogeng Youth Forum in Applied Mathematics, AMSS, March 2023
 6. SIAM Conference on Optimization, Online, July 2021
-7. Workshop on Matrix Optimization, Beijing University of Technology, Beijing, December 2019
+7. Workshop on Matrix Optimization, Beijing University of Technology, December 2019
 8. The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
