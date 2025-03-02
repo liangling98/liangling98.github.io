@@ -8,10 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Postdoctoral Associate in the Department of Mathematics at the University of Maryland, College Park, where I work on Optimization and Scientific Machine Learning with [Prof. Haizhao Yang](https://haizhaoyang.github.io/). I earned my B.S. in Mathematics from the University of Science and Technology of China in June 2017 and my Ph.D. in Mathematics (fortunately supervised by [Prof. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)) from the National University of Singapore in November 2021. 
+My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions. Currently, I am interested in 
+- Semidefinite Programming
+- Computational Optimal Transport
+- Machine Learning Algorithms
+- Inexact Optimization Algorithms
 
-## Research Interest
-My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions.
+## Experience
+- Postdoctoral Associate (August 2023 - present)
+  - University of Maryland, College Park
+  - Host: [Dr. Haizhao Yang](https://haizhaoyang.github.io/)
+- Visiting Researcher (March 2023 - June 2023)
+  - Weierstrass Institute for Applied Analysis and Stochastics
+  - Host: [Dr. Jia-Jie Zhu](https://jj-zhu.github.io/)
+- Research Fellow (January 2022 - July 2023)
+  - National University of Singapore
+  - Host: [Dr. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)
+ 
+## Education
+- Ph.D. in Mathematics (August 2017 - November 2021)
+  - National University of Singapore
+  - Honorably supervised by [Dr. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)
+- B.S. in Mathematics (September 2013 - June 2017)
+  - University of Science and Technology of China
 
 ## Papers
 
