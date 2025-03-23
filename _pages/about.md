@@ -35,13 +35,14 @@ My research focuses on the development, analysis, and implementation of efficien
 ## Papers
 
 ### Preprints
-1. Di Wu, Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport, 2025. [arXiv](https://arxiv.org/abs/2502.03749)
-2. Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
-3. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392), [CODE](https://github.com/liangling98/PNOD.jl)
-4. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320)
-5. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Vertex exchange method for a class of convex quadratic programming problems, 2024. [arXiv](https://arxiv.org/abs/2407.03294)  
-6. Ling Liang, [Qiyuan Pang](https://scholar.google.com/citations?user=c6yzSHwAAAAJ&hl=en), [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems, 2024. [arXiv](https://arxiv.org/abs/2407.03272)
-7. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Jia-Jie Zhu](https://jj-zhu.github.io/). An inexact Halpern iteration with application to distributionally robust optimization, 2024. [arXiv](https://arxiv.org/abs/2402.06033), [CODE](https://github.com/liangling98/isHalpern/tree/main)
+1. Rohan Bhatnagar, Ling Liang, Krish Patel, [Haizhao Yang](https://haizhaoyang.github.io/). From equations to insights: unraveling symbolic structures in PDEs with LLMs, 2025. [arXiv](https://arxiv.org/abs/2503.09986)
+2. Di Wu, Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport, 2025. [arXiv](https://arxiv.org/abs/2502.03749)
+3. Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
+4. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392), [CODE](https://github.com/liangling98/PNOD.jl)
+5. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320)
+6. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Vertex exchange method for a class of convex quadratic programming problems, 2024. [arXiv](https://arxiv.org/abs/2407.03294)  
+7. Ling Liang, [Qiyuan Pang](https://scholar.google.com/citations?user=c6yzSHwAAAAJ&hl=en), [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems, 2024. [arXiv](https://arxiv.org/abs/2407.03272)
+8. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Jia-Jie Zhu](https://jj-zhu.github.io/). An inexact Halpern iteration with application to distributionally robust optimization, 2024. [arXiv](https://arxiv.org/abs/2402.06033), [CODE](https://github.com/liangling98/isHalpern/tree/main)
    
 
 ### Journal Publications
@@ -64,14 +65,14 @@ My research focuses on the development, analysis, and implementation of efficien
 [Augmented Lagrangian Methods for A Class of Large-Scale Conic Programming](https://www.proquest.com/docview/2724233842?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses), 2021.
 
 ## Invited Talks
-1. The 25th International Symposium on Mathematical Programming, Montreal, July 2024
-2. 2024 INFORMS Optimization Society Conference, Rice University, March 2024
-3. Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
-4. SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, May 2023
-5. Hua Luogeng Youth Forum in Applied Mathematics, AMSS, March 2023
-6. SIAM Conference on Optimization, Online, July 2021
-7. Workshop on Matrix Optimization, Beijing University of Technology, December 2019
-8. The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
+- The 25th International Symposium on Mathematical Programming, Montreal, July 2024
+- 2024 INFORMS Optimization Society Conference, Rice University, March 2024
+- Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
+- SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, May 2023
+- Hua Luogeng Youth Forum in Applied Mathematics, AMSS, March 2023
+- SIAM Conference on Optimization, Online, July 2021
+- Workshop on Matrix Optimization, Beijing University of Technology, December 2019
+- The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
 - Spring 2025, AMSC460 Computational Methods, Department of Mathematics, UMD
