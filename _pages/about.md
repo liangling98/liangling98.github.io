@@ -16,7 +16,7 @@ My research focuses on the development, analysis, and implementation of efficien
 
 ## Experience
 - Assistant Professor (August 2025 - present)
-  - The University of Tennessee, Knoxville
+  - University of Tennessee, Knoxville
 - Postdoctoral Associate (August 2023 - July 2025)
   - University of Maryland, College Park
   - Host: [Dr. Haizhao Yang](https://haizhaoyang.github.io/)
