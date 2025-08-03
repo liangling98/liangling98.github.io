@@ -15,7 +15,9 @@ My research focuses on the development, analysis, and implementation of efficien
 - Inexact Optimization Algorithms
 
 ## Experience
-- Postdoctoral Associate (August 2023 - present)
+- Assistant Professor (August 2025 - present)
+  - The University of Tennessee, Knoxville
+- Postdoctoral Associate (August 2023 - July 2025)
   - University of Maryland, College Park
   - Host: [Dr. Haizhao Yang](https://haizhaoyang.github.io/)
 - Visiting Researcher (March 2023 - June 2023)
