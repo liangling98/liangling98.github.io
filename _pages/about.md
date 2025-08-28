@@ -78,6 +78,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
+- Fall 2025, MATH519 Mathematical Methods of Machine Learning, Department of Mathematics, UTK
 - Spring 2025, AMSC460 Computational Methods, Department of Mathematics, UMD
 - Fall 2024, MATH241 Calculus III, Department of Mathematics, UMD
 - Spring 2024, MATH401 Applications of Linear Algebra, Department of Mathematics, UMD
@@ -97,6 +98,8 @@ My research focuses on the development, analysis, and implementation of efficien
 - Journal of Industrial and Management Optimization
 - Asia-Pacific Journal of Operational Research
 - Transactions on Machine Learning Research
+- AAAI-26
+- NeurIPS 2025 Workshop ScaleOPT
 
 ### Organization
 - Organizer, [Summer School on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
