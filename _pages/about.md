@@ -66,6 +66,8 @@ My research focuses on the development, analysis, and implementation of efficien
 
 
 ## Invited Talks
+- SIAM New York-New Jersey-Pennsylvania Section Conference, Penns State, November 2025
+- International Conference on Continuous Optimization, USC, Los Angeles, July 2025
 - The 25th International Symposium on Mathematical Programming, Montreal, July 2024
 - 2024 INFORMS Optimization Society Conference, Rice University, March 2024
 - Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
@@ -73,7 +75,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - Hua Luogeng Youth Forum in Applied Mathematics, AMSS, March 2023
 - SIAM Conference on Optimization, Online, July 2021
 - Workshop on Matrix Optimization, Beijing University of Technology, December 2019
-- The Sixth International Conference on Continuous Optimization, TU Berlin, August 2019
+- International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
 - Fall 2025, MATH519 Mathematical Methods of Machine Learning, Department of Mathematics, UTK
@@ -98,6 +100,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - Transactions on Machine Learning Research
 - AAAI-26
 - NeurIPS 2025 Workshop ScaleOPT
+- Nonlinear Dynamics
 
 ### Organization
 - Organizer, [Summer School on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
