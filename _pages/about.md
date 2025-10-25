@@ -64,8 +64,6 @@ My research focuses on the development, analysis, and implementation of efficien
 ### Conference Proceedings
 1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, Workshop on the Algorithmic Foundations of Robotics, 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/)
 
-### Ph.D. Dissertation
-[Augmented Lagrangian Methods for A Class of Large-Scale Conic Programming](https://www.proquest.com/docview/2724233842?fromopenview=true&pq-origsite=gscholar&sourcetype=Dissertations%20&%20Theses), 2021.
 
 ## Invited Talks
 - The 25th International Symposium on Mathematical Programming, Montreal, July 2024
