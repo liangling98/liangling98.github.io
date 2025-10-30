@@ -37,12 +37,13 @@ My research focuses on the development, analysis, and implementation of efficien
 ## Papers
 
 ### Preprints
-1. Raghav Thind, [Youran Sun](https://scholar.google.com/citations?user=iAOaSawAAAAJ&hl=en), Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). OptimAI: Optimization from natural language using LLM-powered AI agents, 2025. [arXiv](https://arxiv.org/abs/2504.16918)
-2. Rohan Bhatnagar, Ling Liang, Krish Patel, [Haizhao Yang](https://haizhaoyang.github.io/). From equations to insights: Unraveling symbolic structures in PDEs with LLMs, 2025. [arXiv](https://arxiv.org/abs/2503.09986)
-3. Di Wu, Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport, 2025. [arXiv](https://arxiv.org/abs/2502.03749)
-4. Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
-5. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392), [CODE](https://github.com/liangling98/PNOD.jl)
-6. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320) 
+1. [Lei Yang](https://sites.google.com/site/yangleimath/), Jiayi Zhu, Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). Convergence of a relative-type inexact proximal ALM for convex nonlinear programming, 2025. [arXiv](http://arxiv.org/abs/2510.25261)
+2. Raghav Thind, [Youran Sun](https://scholar.google.com/citations?user=iAOaSawAAAAJ&hl=en), Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). OptimAI: Optimization from natural language using LLM-powered AI agents, 2025. [arXiv](https://arxiv.org/abs/2504.16918)
+3. Rohan Bhatnagar, Ling Liang, Krish Patel, [Haizhao Yang](https://haizhaoyang.github.io/). From equations to insights: Unraveling symbolic structures in PDEs with LLMs, 2025. [arXiv](https://arxiv.org/abs/2503.09986)
+4. Di Wu, Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport, 2025. [arXiv](https://arxiv.org/abs/2502.03749)
+5. Jiayi Zhu, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport, 2024. [arXiv](https://arxiv.org/abs/2411.13267)
+6. Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). PNOD: An efficient projected Newton framework for exact optimal experimental designs, 2024. [arXiv](https://arxiv.org/abs/2409.18392), [CODE](https://github.com/liangling98/PNOD.jl)
+7. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320) 
    
 
 ### Journal Publications
