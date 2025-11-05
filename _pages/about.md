@@ -67,7 +67,7 @@ My research focuses on the development, analysis, and implementation of efficien
 
 
 ## Invited Talks
-- SIAM New York-New Jersey-Pennsylvania Section Conference, Penns State, November 2025
+- SIAM NNP Section Conference, Penn State, November 2025
 - International Conference on Continuous Optimization, USC, Los Angeles, July 2025
 - The 25th International Symposium on Mathematical Programming, Montreal, July 2024
 - 2024 INFORMS Optimization Society Conference, Rice University, March 2024
@@ -102,8 +102,11 @@ My research focuses on the development, analysis, and implementation of efficien
 - AAAI-26
 - NeurIPS 2025 Workshop ScaleOPT
 - Nonlinear Dynamics
+- Operations Research
+- Journal of Computational Mathematics
 
 ### Organization
+- Session Chair, [SIAM NNP Section Conference](https://sites.google.com/view/siam-nynjpa/home), Penn State (Fall 2025)
 - Organizer, [Summer School on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
 - Session Chair, [International Conference on Continuous Optimization](https://sites.google.com/view/iccopt2025/home), USC (Summer 2025)
 - Organizer, [Numerical Analysis Seminar](https://www-math.umd.edu/research/seminars/numerical-analysis-seminar.html), UMD (Fall 2024 - Spring 2025)
