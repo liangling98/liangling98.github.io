@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions. Currently, I am interested in 
-- Semidefinite Programming
-- Computational Optimal Transport
-- Machine Learning Algorithms
-- Inexact Optimization Algorithms
+- Large-Scale Conic Programming 
+- Machine Learning Algorithms 
+- Inexact Optimization Algorithms 
 
 ## Experience
 - Assistant Professor (August 2025 - present)
-  - University of Tennessee, Knoxville
+  - Department of Mathematics, University of Tennessee, Knoxville
 - Postdoctoral Associate (August 2023 - July 2025)
-  - University of Maryland, College Park
+  - Department of Mathematics, University of Maryland, College Park
   - Host: [Dr. Haizhao Yang](https://haizhaoyang.github.io/)
 - Visiting Researcher (March 2023 - June 2023)
   - Weierstrass Institute for Applied Analysis and Stochastics
   - Host: [Dr. Jia-Jie Zhu](https://jj-zhu.github.io/)
 - Research Fellow (January 2022 - July 2023)
-  - National University of Singapore
+  - Department of Mathematics, National University of Singapore
   - Host: [Dr. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)
  
 ## Education
 - Ph.D. in Mathematics (August 2017 - November 2021)
   - National University of Singapore
-  - Honorably supervised by [Dr. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)
+  - Advisor: [Dr. Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/)
 - B.S. in Mathematics (September 2013 - June 2017)
   - University of Science and Technology of China
+  - Advisor: [Dr. Zhouwang Yang](http://staff.ustc.edu.cn/~yangzw/)
 
 ## Papers
 
