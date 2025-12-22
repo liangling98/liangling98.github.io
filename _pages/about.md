@@ -86,26 +86,6 @@ My research focuses on the development, analysis, and implementation of efficien
 - Fall 2023, AMSC460 Computational Methods, Department of Mathematics, UMD
 
 ## Services
-
-### Review
-- Mathematical Programming
-- SIAM Journal on Optimization
-- Mathematical Programming Computation
-- SIAM Journal on Mathematics of Data Science
-- Computational Optimization and Applications
-- Journal of Scientific Computing
-- INFORMS Journal on Computing
-- Optimization Methods and Software
-- Journal of Industrial and Management Optimization
-- Asia-Pacific Journal of Operational Research
-- Transactions on Machine Learning Research
-- AAAI-26
-- NeurIPS 2025 Workshop ScaleOPT
-- Nonlinear Dynamics
-- Operations Research
-- Journal of Computational Mathematics
-
-### Organization
 - Session Chair, [SIAM NNP Section Conference](https://sites.google.com/view/siam-nynjpa/home), Penn State (Fall 2025)
 - Organizer, [Summer School on Scientific Machine Learning](https://brinmrc.umd.edu/programs/schools/summer25/summer25-school-ml.html), UMD (Summer 2025)
 - Session Chair, [International Conference on Continuous Optimization](https://sites.google.com/view/iccopt2025/home), USC (Summer 2025)
