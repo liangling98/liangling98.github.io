@@ -79,6 +79,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - International Conference on Continuous Optimization, TU Berlin, August 2019
 
 ## Teaching
+- Spring 2026, MATH251 Matrix Algebra I, Department of Mathematics, UTK
 - Fall 2025, MATH519 Mathematical Methods of Machine Learning, Department of Mathematics, UTK
 - Spring 2025, AMSC460 Computational Methods, Department of Mathematics, UMD
 - Fall 2024, MATH241 Calculus III, Department of Mathematics, UMD
