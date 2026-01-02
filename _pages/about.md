@@ -11,7 +11,9 @@ redirect_from:
 My research focuses on the development, analysis, and implementation of efficient, robust, and scalable algorithmic frameworks for solving large-scale optimization problems and their applications in Machine Learning, Scientific Computing, and Engineering, aiming to bridge theoretical advancements with practical solutions. Currently, I am interested in 
 - Large-Scale Conic Programming 
 - Machine Learning Algorithms 
-- Inexact Optimization Algorithms 
+- Inexact Optimization Algorithms
+
+This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33B/view?usp=sharing)
 
 ## Experience
 - Assistant Professor (August 2025 - present)
