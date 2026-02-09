@@ -70,6 +70,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
 
 
 ## Invited Talks
+- INFORMS Optimization Society Conference 2026, Atlanta, March 2026.
 - SIAM NNP Section Conference, Penn State, November 2025
 - International Conference on Continuous Optimization, USC, Los Angeles, July 2025
 - The 25th International Symposium on Mathematical Programming, Montreal, July 2024
