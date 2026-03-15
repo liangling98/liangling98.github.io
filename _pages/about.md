@@ -66,7 +66,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
 14. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). An inexact augmented Lagrangian method for second-order cone programming with applications. SIAM Journal on Optimization 31, no. 3 (2021): 1748-1773. [arXiv](https://arxiv.org/abs/2010.08772), [SIOPT](https://epubs.siam.org/doi/abs/10.1137/20M1374262)
 
 ### Conference Proceedings
-1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, Workshop on the Algorithmic Foundations of Robotics, 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/)
+1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, Workshop on the Algorithmic Foundations of Robotics, 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/) [Best Paper Award Finalist](https://www.tcoptrob.org/news/2025-04-16-best-paper/)
 
 
 ## Invited Talks
