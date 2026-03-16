@@ -36,9 +36,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
   - University of Science and Technology of China
   - Advisor: [Dr. Zhouwang Yang](http://staff.ustc.edu.cn/~yangzw/)
 
-## Papers
-
-### Preprints
+## Preprints
 1. Jiayi Zhu, Hong Wang, Ling Liang, [Lei Yang](https://sites.google.com/site/yangleimath/). D-ripALM: A tuning-friendly decentralized relative-type inexact proximal augmented Lagrangian method, 2026. [arXiv](https://arxiv.org/abs/2602.06398)
 2. [Lei Yang](https://sites.google.com/site/yangleimath/), Jiayi Zhu, Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). Convergence of a relative-type inexact proximal ALM for convex nonlinear programming, 2025. [arXiv](http://arxiv.org/abs/2510.25261)
 3. Raghav Thind, [Youran Sun](https://scholar.google.com/citations?user=iAOaSawAAAAJ&hl=en), Ling Liang, [Haizhao Yang](https://haizhaoyang.github.io/). OptimAI: Optimization from natural language using LLM-powered AI agents, 2025. [arXiv](https://arxiv.org/abs/2504.16918)
@@ -49,7 +47,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
 8. Ling Liang, Cameron Austin, and [Haizhao Yang](https://haizhaoyang.github.io/). Accelerating multi-block constrained optimization through learning to optimize, 2024. [arXiv](https://arxiv.org/abs/2409.17320) 
    
 
-### Journal Publications
+## Journal Publications
 1. Ling Liang, [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). NewVEM: A Newton vertex exchange method for a class of constrained self-concordant minimization problems, Journal of Scientific Computing 105, no. 64 (2025). [arXiv](https://arxiv.org/abs/2407.03294), [JSC](https://link.springer.com/article/10.1007/s10915-025-03096-5)
 2. Ling Liang, [Qiyuan Pang](https://scholar.google.com/citations?user=c6yzSHwAAAAJ&hl=en), [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/), and [Haizhao Yang](https://haizhaoyang.github.io/). Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems, SIAM Journal on Scientific Computing 47, no. 6 (2025). [arXiv](https://arxiv.org/abs/2407.03272), [SISC](https://epubs.siam.org/doi/10.1137/24M1673899), [CODE](https://github.com/liangling98/PSDLinearSolvers)
 3. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A squared smoothing Newton method for semidefinite programming. Mathematics of Operations Research 50, no 4 (2025): 2433-3282. [arXiv](https://arxiv.org/abs/2303.05825) [MOOR](https://pubsonline.informs.org/doi/full/10.1287/moor.2023.0311)
@@ -65,7 +63,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
 13. [Quoc Tran-Dinh](https://quoctd.web.unc.edu/), Ling Liang, and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). A new homotopy proximal variable-metric framework for composite convex minimization. Mathematics of Operations Research 47, no. 1 (2022): 508-539. [arXiv](https://arxiv.org/abs/1812.05243), [MOOR](https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1138)
 14. Ling Liang, [Defeng Sun](https://www.polyu.edu.hk/ama/profile/dfsun/), and [Kim-Chuan Toh](https://blog.nus.edu.sg/mattohkc/). An inexact augmented Lagrangian method for second-order cone programming with applications. SIAM Journal on Optimization 31, no. 3 (2021): 1748-1773. [arXiv](https://arxiv.org/abs/2010.08772), [SIOPT](https://epubs.siam.org/doi/abs/10.1137/20M1374262)
 
-### Conference Proceedings
+## Conference Proceedings
 1. [Shucheng Kang](https://scholar.google.com/citations?user=PLZtYgEAAAAJ&hl=en), Xiaoyang Xu, [Jay Sarva](https://scholar.google.com/citations?hl=en&user=f7EW5VIAAAAJ&view_op=list_works&sortby=pubdate), Ling Liang, and [Heng Yang](https://hankyang.seas.harvard.edu/). Fast and certifiable trajectory optimization, Workshop on the Algorithmic Foundations of Robotics, 2024. [arXiv](https://arxiv.org/abs/2406.05846), [CODE](https://computationalrobotics.seas.harvard.edu/project-strom/) [Best Paper Award Finalist](https://www.tcoptrob.org/news/2025-04-16-best-paper/)
 
 
