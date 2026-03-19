@@ -75,7 +75,7 @@ This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33
 - INFORMS Optimization Society Conference 2024, Rice University, March 2024
 - Workshop of Scientific Machine Learning: Theory and Algorithms, UMD, February 2024
 - SIAM Conference on Optimization, The Sheraton Grand Seattle, Seattle, May 2023
-- Hua Luogeng Youth Forum in Applied Mathematics, AMSS, March 2023
+- HUA Loo-Keng Youth Forum in Applied Mathematics, AMSS, March 2023
 - SIAM Conference on Optimization, Online, July 2021
 - Workshop on Matrix Optimization, Beijing University of Technology, December 2019
 - International Conference on Continuous Optimization, TU Berlin, August 2019
