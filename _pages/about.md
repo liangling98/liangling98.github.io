@@ -13,7 +13,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - Machine Learning Algorithms 
 - Inexact Optimization Algorithms
 
-This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33B/view?usp=sharing)
+This is my [CV](https://drive.google.com/file/d/1spVM4MNpcw92sI8XgIwg-I6Nn3X6y33B/view?usp=sharing). My name in Chinese is 梁令
 
 ## Experience
 - Assistant Professor (August 2025 - present)
