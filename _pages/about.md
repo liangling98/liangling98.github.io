@@ -68,7 +68,10 @@ My research focuses on the development, analysis, and implementation of efficien
 
 
 ## Invited Talks
-- INFORMS Optimization Society Conference 2026, Atlanta, March 2026.
+- SIAM Conference on Mathematics of Data Science, Salt Lake City, November 2026
+- INFORMS Annual Meeting, San Francisco, November 2026
+- Modeling and Optimization: Theory and Applications, Lehigh University, August 2026
+- INFORMS Optimization Society Conference 2026, Atlanta, March 2026
 - SIAM NNP Section Conference, Penn State, November 2025
 - International Conference on Continuous Optimization, USC, Los Angeles, July 2025
 - The 25th International Symposium on Mathematical Programming, Montreal, July 2024
