@@ -13,7 +13,7 @@ My research focuses on the development, analysis, and implementation of efficien
 - Machine Learning Algorithms 
 - Inexact Optimization Algorithms
 
-## Posititions
+## Positions
 We are seeking passionate and highly self-motivated graduate and undergraudate students to join our research group. Research projects include optimization, machine learning and data science, and scientific computing.
 Please contact me by email for prospective positions. 
 
