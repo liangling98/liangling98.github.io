@@ -15,6 +15,9 @@ def main():
                  "research", "teaching", "talks", "openings"):
         source = root / name
         destination = output / name
+        # Git does not retain the optional files/ directory while it is empty.
+        if name == "files" and not source.exists():
+            continue
         if source.is_dir():
             shutil.copytree(source, destination, ignore=shutil.ignore_patterns(".DS_Store"))
         else:
