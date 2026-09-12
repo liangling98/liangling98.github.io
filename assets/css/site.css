@@ -46,8 +46,8 @@ li { padding-left: .2rem; margin-bottom: .65rem; }
 .portrait { display: block; width: 180px; height: 225px; object-fit: cover; border: 1px solid var(--line); }
 .role { margin-bottom: .3rem; font-size: 1.2rem; font-weight: 600; }
 .affiliation { margin-bottom: 1.1rem; }
-.contact { padding: 0; list-style: none; font-size: .9375rem; }
-.contact li { margin: .25rem 0; padding: 0; }
+.contact { margin: .25rem 0; font-size: .9375rem; }
+.contact a { display: inline-block; }
 .profile-links { display: flex; flex-wrap: wrap; gap: .2rem 1.2rem; margin-top: .8rem; font-size: .9375rem; }
 .section-grid { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 2.5rem; padding-bottom: 2rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
 .section-grid:last-child { border-bottom: 0; padding-bottom: 0; }
