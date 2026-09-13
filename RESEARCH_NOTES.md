@@ -56,7 +56,7 @@ SVGs are schematics, examples, or an analytical illustration; their types and so
 
 | Paper | Visual | Source / interpretation |
 | --- | --- | --- |
-| [2605.31425](https://arxiv.org/abs/2605.31425) | `images/research/meb-speedup.png` | Paper result. 5,000 balls; dimensions 100–10,000. Both methods use the same final accuracy target. [Fig. 3(b), right](https://arxiv.org/abs/2605.31425) |
+| [2605.31425](https://arxiv.org/abs/2605.31425) | `images/research/meb-baseline-comparison.png` | Paper result. Runtime comparison at d = 50 for 1,000–100,000 balls. ripALM and mp-ripALM use the NVIDIA RTX 4070 GPU; CGAL, SCS, and CLARABEL use the Intel Core i7-13700K CPU. The original logarithmic axes, curves, and legend are unmodified. [Fig. 2(d), left](https://arxiv.org/abs/2605.31425) |
 | [2603.19147](https://arxiv.org/abs/2603.19147) | HTML table: Two exactness results | Theory summary. Both statements require the conditions established in the paper. [Paper](https://arxiv.org/abs/2603.19147) |
 | [2602.06398](https://arxiv.org/abs/2602.06398) | `images/research/decentralized-ripalm.svg` | Method schematic. A simplified view of the inner/outer switching rule and neighbor communication. [Paper](https://arxiv.org/abs/2602.06398) |
 | [2510.25261](https://arxiv.org/abs/2510.25261) | HTML table: Convergence at three levels | Theory summary. Each guarantee is subject to its stated assumptions; local rate results require additional conditions. [Paper](https://arxiv.org/abs/2510.25261) |
@@ -90,7 +90,7 @@ The following are direct Poppler renders from the locally supplied original PDFs
 
 | Asset | Local PDF / page | DPI | Crop x, y, width, height |
 | --- | --- | --- | --- |
-| meb-speedup.png | liang2026mixed.pdf / 16 | 220 | 980, 650, 590, 378 |
+| meb-baseline-comparison.png | liang2026mixed.pdf / 15 | 280 | 390, 1908, 744, 474 |
 | halpern-dro.png | liang2025inexact.pdf / 23 | 220 | 760, 558, 490, 480 |
 | boed-utility.png | wu2026beyond.pdf / 17 | 220 | 340, 505, 1210, 454 |
 | cipalm-transport.png | yang2024corrected.pdf / 25 | 220 | 718, 376, 916, 370 |
