@@ -56,7 +56,7 @@ li { padding-left: .2rem; margin-bottom: .65rem; }
 .history { list-style: none; padding: 0; }
 .history li { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1.5rem; padding: 0 0 1.3rem; margin-bottom: 1.3rem; border-bottom: 1px solid #e9edf1; }
 .history li:last-child { padding-bottom: 0; margin-bottom: 0; border: 0; }
-.history p { margin: 0; }
+.history p { grid-column: 1 / -1; margin: 0; }
 .dates, .note { color: var(--muted); }
 .dates { font-size: .875rem; white-space: nowrap; padding-top: .2rem; }
 .history .note { font-size: .9375rem; }
