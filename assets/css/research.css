@@ -28,7 +28,6 @@
 .paper-image-link:hover { background: #f7faff; }
 .paper-image-link img { display: block; width: 100%; height: auto; max-height: 320px; object-fit: contain; }
 .paper-visual figcaption { padding: .65rem .8rem; border-top: 1px solid #e9edf1; color: var(--muted); font-size: .8125rem; line-height: 1.55; background: #fafcfe; }
-.visual-kind { display: block; margin-bottom: .25rem; color: var(--accent); font-size: .6875rem; font-weight: 600; letter-spacing: .045em; text-transform: uppercase; }
 .paper-visual table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: .8125rem; line-height: 1.55; }
 .paper-visual caption { padding: .8rem; text-align: left; font-size: .9375rem; font-weight: 600; color: var(--accent); }
 .paper-visual th, .paper-visual td { padding: .55rem .7rem; text-align: left; vertical-align: top; border-top: 1px solid #e9edf1; }
