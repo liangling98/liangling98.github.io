@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research by Ling Liang in Optimization, Machine Learning, and Scientific Computing, with core contributions and visual highlights for each paper.">
+  <meta name="description" content="Research by Ling Liang in reliable and scalable optimization, optimal transport and experimental design, and learning and autonomous systems.">
   <title>Research | Ling Liang</title>
   <link rel="stylesheet" href="../assets/css/site.css">
   <link rel="stylesheet" href="../assets/css/research.css">
@@ -27,32 +27,65 @@
           <!-- Preserve links from earlier versions of the homepage. -->
           <span id="preprints"></span><span id="publications"></span>
           <h1>Research</h1>
-          <p>I develop optimization methods that make large computational problems tractable by exploiting structure, controlling inexactness, and connecting rigorous algorithms with modern hardware and AI.</p>
+          <p>My research connects reliable optimization algorithms, optimal transport and experimental design, and learning for intelligent systems. Across these directions, I exploit mathematical structure to make demanding computations efficient and trustworthy.</p>
           <nav class="profile-links" aria-label="Research profiles">
             <a href="https://scholar.google.com/citations?user=81u-WasAAAAJ&amp;hl=en">Google Scholar</a>
             <a href="https://www.researchgate.net/profile/Ling-Liang-10">ResearchGate</a>
           </nav>
           <nav class="topic-nav" aria-label="Research topics">
             <ul>
-              <li><a href="#optimization"><span>Optimization</span></a></li>
-              <li><a href="#machine-learning"><span>Machine Learning</span></a></li>
-              <li><a href="#scientific-computing"><span>Scientific Computing</span></a></li>
+              <li><a href="#optimization"><span>Reliable &amp; Scalable Optimization</span></a></li>
+              <li><a href="#transport-design"><span>Optimal Transport &amp; Experimental Design</span></a></li>
+              <li><a href="#learning-autonomous-systems"><span>Learning &amp; Autonomous Systems</span></a></li>
             </ul>
           </nav>
         </div>
         <section class="research-theme" id="optimization" aria-labelledby="optimization-title">
           <span id="optimization-algorithms" aria-hidden="true"></span><span id="structured-optimization" aria-hidden="true"></span><span id="inexact-optimization" aria-hidden="true"></span>
           <div class="theme-heading">
-            <h2 id="optimization-title">Optimization</h2>
+            <h2 id="optimization-title">Reliable &amp; Scalable Optimization</h2>
             <a class="back-to-top" href="#research" aria-label="Back to research topics">Topics ↑</a>
           </div>
-          <p class="theme-intro"><strong>Bridge the gap between theory and practice.</strong> I develop and analyze Newton, proximal, and augmented Lagrangian methods for structured optimization. Implementable error criteria and careful treatment of degeneracy turn convergence theory into reliable algorithms for conic programming, decentralized optimization, and distributionally robust problems.</p>
-          <ul class="paper-list" aria-label="Papers on Optimization">
+          <p class="theme-intro"><strong>Bridge the gap between theory and practice.</strong> I design optimization algorithms that remain reliable under inexact computation and scale with problem size. Convergence theory, Newton and proximal methods, low-rank structure, and parallel or mixed-precision computation connect mathematical guarantees with practical performance.</p>
+          <ul class="paper-list" aria-label="Papers on Reliable &amp; Scalable Optimization">
+            <li id="paper-260531425">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2605.31425">Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</a> <span class="preprint-badge">Preprint</span></h3>
+                <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
+                <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2605.31425" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>GPU Computing</span> <span>Mixed Precision</span></p>
+                <p class="paper-contribution">Low-precision screening and high-precision refinement reduce GPU work while retaining an accurate, fully checked enclosing ball.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/meb-baseline-comparison.png" aria-label="Open full-size visual: Runtime comparison of mp-ripALM, ripALM, CGAL, SCS, and CLARABEL for minimum enclosing balls in dimension 50.">
+                <img src="../images/research/meb-baseline-comparison.png" width="744" height="474" alt="Runtime in seconds on a logarithmic scale for mp-ripALM, ripALM, CGAL, SCS, and CLARABEL, with 1,000 to 100,000 balls in dimension 50." loading="lazy" decoding="async">
+              </a>
+              <figcaption>Runtime at d = 50 for 1,000–100,000 balls. ripALM and mp-ripALM run on GPU; CGAL, SCS, and CLARABEL run on CPU.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-260319147">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2603.19147">Fast and effective computation of generalized symmetric matrix factorization</a> <span class="preprint-badge">Preprint</span></h3>
+                <p class="paper-authors">Lei Yang, Han Wan, Min Zhang, <strong>Ling Liang</strong></p>
+                <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2603.19147" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Matrix Factorization</span> <span>Machine Learning</span></p>
+                <p class="paper-contribution">Exactness results make generalized symmetric factorization amenable to the convergent A-NAUM alternating method.</p>
+              </div>
+              <figure class="paper-visual">
+              <table>
+                <caption>Two exactness results</caption>
+                <thead><tr><th scope="col">Layer</th><th scope="col">What becomes exact</th></tr></thead>
+                <tbody><tr><th scope="row">Model</th><td>A finite quadratic penalty enforces symmetry.</td></tr><tr><th scope="row">Relaxation</th><td>Stationary points are linked through an auxiliary-variable formulation.</td></tr></tbody>
+              </table>
+              <figcaption>Both statements require the conditions established in the paper.</figcaption>
+            </figure>
+            </li>
             <li id="paper-260206398">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2602.06398">D-ripALM: A tuning-friendly decentralized relative-type inexact proximal augmented Lagrangian method</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors">Jiayi Zhu, Hong Wang, <strong>Ling Liang</strong>, Lei Yang</p>
                 <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2602.06398" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Decentralized Optimization</span></p>
                 <p class="paper-contribution">Relative-error control makes decentralized ALM easier to tune, with convergence analysis covering nonsmooth, generally convex objectives.</p>
               </div>
               <figure class="paper-visual">
@@ -67,6 +100,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2510.25261">Convergence of a relative-type inexact proximal ALM for convex nonlinear programming</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors">Lei Yang, Jiayi Zhu, <strong>Ling Liang</strong>, Kim-Chuan Toh</p>
                 <p class="paper-details">2025. <a class="arxiv-link" href="http://arxiv.org/abs/2510.25261" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Inexact Optimization</span></p>
                 <p class="paper-contribution">A unified analysis explains the global behavior and asymptotic rates of relative-type inexact preconditioned proximal ALM.</p>
               </div>
               <figure class="paper-visual">
@@ -78,11 +112,27 @@
               <figcaption>Each guarantee is subject to its stated assumptions; local rate results require additional conditions.</figcaption>
             </figure>
             </li>
+            <li id="paper-240703272">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2407.03272">Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems</a></h3>
+                <p class="paper-authors"><strong>Ling Liang</strong>, Qiyuan Pang, Kim-Chuan Toh, and Haizhao Yang</p>
+                <p class="paper-details">SIAM Journal on Scientific Computing 47, no. 6 (2025). <a class="resource-link" href="https://epubs.siam.org/doi/10.1137/24M1673899" aria-label="SISC"><span class="resource-mark journal-mark">SISC</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2407.03272" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/liangling98/PSDLinearSolvers" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Linear Systems</span> <span>Parallel Computing</span></p>
+                <p class="paper-contribution">Nesterov acceleration improves Jacobi-type convergence while preserving the simple, parallel structure of the updates.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/accelerated-jacobi.svg" aria-label="Open full-size visual: Parallel row-block updates feeding an accelerated Jacobi step, with an O(1/k squared) objective rate.">
+                <img src="../images/research/accelerated-jacobi.svg" width="600" height="280" alt="Parallel row-block updates feeding an accelerated Jacobi step, with an O(1/k squared) objective rate." loading="lazy" decoding="async">
+              </a>
+              <figcaption>The rate is for the associated convex quadratic objective, under the method’s assumptions.</figcaption>
+            </figure>
+            </li>
             <li id="paper-240206033">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2402.06033">An inexact Halpern iteration with application to distributionally robust optimization</a></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Zusen Xu, Kim-Chuan Toh, and Jia-Jie Zhu</p>
                 <p class="paper-details">Journal of Optimization Theory and Applications 260, no. 58 (2025): 1-41. <a class="resource-link" href="https://link.springer.com/article/10.1007/s10957-025-02744-y?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=nonoa_20250611&amp;utm_content=10.1007/s10957-025-02744-y" aria-label="JOTA"><span class="resource-mark journal-mark">JOTA</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2402.06033" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/liangling98/isHalpern/tree/main" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Distributionally Robust Optimization</span></p>
                 <p class="paper-contribution">Inexact Halpern updates retain O(1/k) residual rates—expected residuals in the stochastic setting—and enable practical Wasserstein DRO.</p>
               </div>
               <figure class="paper-visual">
@@ -97,6 +147,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2303.05825">A squared smoothing Newton method for semidefinite programming</a></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Defeng Sun, and Kim-Chuan Toh</p>
                 <p class="paper-details">Mathematics of Operations Research 50, no. 4 (2025): 2433-3282. <a class="resource-link" href="https://pubsonline.informs.org/doi/full/10.1287/moor.2023.0311" aria-label="MOOR"><span class="resource-mark journal-mark">MOOR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2303.05825" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Semidefinite Optimization</span></p>
                 <p class="paper-contribution">Huber smoothing preserves zero eigenvalue contributions, allowing a squared smoothing Newton method to exploit structure in SDP.</p>
               </div>
               <figure class="paper-visual">
@@ -111,6 +162,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2411.13267">ripALM: A relative-type inexact proximal augmented Lagrangian method with applications to quadratically regularized optimal transport</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors">Jiayi Zhu, <strong>Ling Liang</strong>, Lei Yang, and Kim-Chuan Toh</p>
                 <p class="paper-details">2024. <a class="arxiv-link" href="https://arxiv.org/abs/2411.13267" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Optimal Transport</span></p>
                 <p class="paper-contribution">One relative tolerance replaces delicate error-sequence tuning while retaining convergence guarantees for inexact proximal ALM.</p>
               </div>
               <figure class="paper-visual">
@@ -122,11 +174,27 @@
               <figcaption>“One parameter” refers to the inner error criterion, not all algorithm settings.</figcaption>
             </figure>
             </li>
+            <li id="paper-220414067">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2204.14067">Accelerating nuclear-norm regularized low-rank matrix optimization through Burer-Monteiro decomposition</a></h3>
+                <p class="paper-authors">Ching-pei Lee, <strong>Ling Liang</strong>, Tianyun Tang, and Kim-Chuan Toh</p>
+                <p class="paper-details">Journal of Machine Learning Research 25, no. 379 (2024): 1-52. <a class="resource-link" href="https://jmlr.org/papers/v25/23-0049.html" aria-label="JMLR"><span class="resource-mark journal-mark">JMLR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2204.14067" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/leepei/BM-Global/" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Low-Rank Optimization</span> <span>Machine Learning</span></p>
+                <p class="paper-contribution">Cheap factorized steps gain the safeguards of convex optimization, while the algorithm adjusts the factorization rank automatically.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/bm-global.svg" aria-label="Open full-size visual: Low-rank Burer–Monteiro steps alternate with aperiodic proximal safeguards and rank adaptation.">
+                <img src="../images/research/bm-global.svg" width="600" height="280" alt="Low-rank Burer–Monteiro steps alternate with aperiodic proximal safeguards and rank adaptation." loading="lazy" decoding="async">
+              </a>
+              <figcaption>The schematic separates the fast factorized phase from the global-convergence safeguard.</figcaption>
+            </figure>
+            </li>
             <li id="paper-210313108">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2103.13108">QPPAL: A two-phase proximal augmented Lagrangian method for high dimensional convex quadratic programming problems</a></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Xudong Li, Defeng Sun, and Kim-Chuan Toh</p>
                 <p class="paper-details">ACM Transactions on Mathematical Software 48, no. 3 (2022): 1-27. <a class="resource-link" href="https://dl.acm.org/doi/full/10.1145/3476571" aria-label="TOMS"><span class="resource-mark journal-mark">TOMS</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2103.13108" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://blog.nus.edu.sg/mattohkc/softwares/qppal/" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Quadratic Programming</span></p>
                 <p class="paper-contribution">A two-phase solver pairs inexpensive warm-start iterations with accurate proximal ALM refinement for high-dimensional convex QP.</p>
               </div>
               <figure class="paper-visual">
@@ -141,6 +209,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2009.11272">On degenerate doubly nonnegative projection problems</a></h3>
                 <p class="paper-authors">Ying Cui, <strong>Ling Liang</strong>, Defeng Sun, and Kim-Chuan Toh</p>
                 <p class="paper-details">Mathematics of Operations Research 47, no. 3 (2022): 2219-2239. <a class="resource-link" href="https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1205" aria-label="MOOR"><span class="resource-mark journal-mark">MOOR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2009.11272" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Conic Optimization</span></p>
                 <p class="paper-contribution">Augmented Lagrangian subproblems overcome the singular Newton systems that make degenerate doubly nonnegative projection difficult.</p>
               </div>
               <figure class="paper-visual">
@@ -157,6 +226,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/1812.05243">A new homotopy proximal variable-metric framework for composite convex minimization</a></h3>
                 <p class="paper-authors">Quoc Tran-Dinh, <strong>Ling Liang</strong>, and Kim-Chuan Toh</p>
                 <p class="paper-details">Mathematics of Operations Research 47, no. 1 (2022): 508-539. <a class="resource-link" href="https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1138" aria-label="MOOR"><span class="resource-mark journal-mark">MOOR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/1812.05243" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Statistical Estimation</span></p>
                 <p class="paper-contribution">A homotopy parameterization and primal-dual-primal construction preserve useful regularizer structure in proximal Newton subproblems.</p>
               </div>
               <figure class="paper-visual">
@@ -171,6 +241,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2010.08772">An inexact augmented Lagrangian method for second-order cone programming with applications</a></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Defeng Sun, and Kim-Chuan Toh</p>
                 <p class="paper-details">SIAM Journal on Optimization 31, no. 3 (2021): 1748-1773. <a class="resource-link" href="https://epubs.siam.org/doi/abs/10.1137/20M1374262" aria-label="SIOPT"><span class="resource-mark journal-mark">SIOPT</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2010.08772" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Conic Optimization</span></p>
                 <p class="paper-contribution">Quadratic-growth conditions connect SOCP geometry to fast ALM residual convergence and an effective solver for structured cone problems.</p>
               </div>
               <figure class="paper-visual">
@@ -182,117 +253,20 @@
             </li>
           </ul>
         </section>
-        <section class="research-theme" id="machine-learning" aria-labelledby="machine-learning-title">
-          <span id="ai-robotics" aria-hidden="true"></span><span id="optimization-ai" aria-hidden="true"></span>
+        <section class="research-theme" id="transport-design" aria-labelledby="transport-design-title">
+          <span id="scientific-computing" aria-hidden="true"></span><span id="scientific-computing-title" aria-hidden="true"></span><span id="optimal-transport" aria-hidden="true"></span><span id="experimental-design" aria-hidden="true"></span>
           <div class="theme-heading">
-            <h2 id="machine-learning-title">Machine Learning</h2>
+            <h2 id="transport-design-title">Optimal Transport &amp; Experimental Design</h2>
             <a class="back-to-top" href="#research" aria-label="Back to research topics">Topics ↑</a>
           </div>
-          <p class="theme-intro"><strong>Use mathematical structure to make learning more efficient.</strong> I study low-rank and symmetric matrix models, provable algorithms for reinforcement learning, and learning-based strategies that accelerate optimization. LLM agents extend this connection by translating natural-language descriptions into mathematical models and executable solutions.</p>
-          <ul class="paper-list" aria-label="Papers on Machine Learning">
-            <li id="paper-260319147">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2603.19147">Fast and effective computation of generalized symmetric matrix factorization</a> <span class="preprint-badge">Preprint</span></h3>
-                <p class="paper-authors">Lei Yang, Han Wan, Min Zhang, <strong>Ling Liang</strong></p>
-                <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2603.19147" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">Exactness results make generalized symmetric factorization amenable to the convergent A-NAUM alternating method.</p>
-              </div>
-              <figure class="paper-visual">
-              <table>
-                <caption>Two exactness results</caption>
-                <thead><tr><th scope="col">Layer</th><th scope="col">What becomes exact</th></tr></thead>
-                <tbody><tr><th scope="row">Model</th><td>A finite quadratic penalty enforces symmetry.</td></tr><tr><th scope="row">Relaxation</th><td>Stationary points are linked through an auxiliary-variable formulation.</td></tr></tbody>
-              </table>
-              <figcaption>Both statements require the conditions established in the paper.</figcaption>
-            </figure>
-            </li>
-            <li id="paper-250416918">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2504.16918">OptimAI: Optimization from natural language using LLM-powered AI agents</a></h3>
-                <p class="paper-authors">Raghav Thind, Youran Sun, <strong>Ling Liang</strong>, Haizhao Yang</p>
-                <p class="paper-details">Journal of Machine Learning, accepted, 2026. <span class="resource-mark journal-mark">JML</span>, <a class="arxiv-link" href="https://arxiv.org/abs/2504.16918" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">Four cooperating LLM roles formulate, plan, implement, and debug optimization problems expressed in natural language.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/optimai-agents.svg" aria-label="Open full-size visual: The OptimAI formulator, planner, coder, and code critic, including a feedback loop for code refinement.">
-                <img src="../images/research/optimai-agents.svg" width="600" height="280" alt="The OptimAI formulator, planner, coder, and code critic, including a feedback loop for code refinement." loading="lazy" decoding="async">
-              </a>
-              <figcaption>A simplified architecture: structured roles and iterative debugging turn descriptions into executable solutions.</figcaption>
-            </figure>
-            </li>
-            <li id="paper-240917320">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2409.17320">Accelerating multi-block constrained optimization by learning penalty parameters</a></h3>
-                <p class="paper-authors"><strong>Ling Liang</strong>, Cameron Austin, and Haizhao Yang</p>
-                <p class="paper-details">Communications on Pure and Applied Analysis, accepted, 2026. <span class="resource-mark journal-mark">CPAA</span>, <a class="arxiv-link" href="https://arxiv.org/abs/2409.17320" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">Learned penalty parameters accelerate multi-block MPALM, reducing the need for manual tuning on Lasso and optimal transport problems.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/learned-penalties.png" aria-label="Open full-size visual: Log-normalized MSE versus iteration for learned-penalty LMPALM and baselines on a Lasso problem with m=10 and n=20.">
-                <img src="../images/research/learned-penalties.png" width="548" height="408" alt="Log-normalized MSE versus iteration for learned-penalty LMPALM and baselines on a Lasso problem with m=10 and n=20." loading="lazy" decoding="async">
-              </a>
-              <figcaption>Lasso example, m = 10 and n = 20: log-normalized MSE versus iterations. LMPALM uses learned penalties.</figcaption>
-            </figure>
-            </li>
-            <li id="paper-240112508">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2401.12508">On the stochastic (variance-reduced) proximal gradient method for regularized expected reward optimization</a></h3>
-                <p class="paper-authors"><strong>Ling Liang</strong>, Haizhao Yang</p>
-                <p class="paper-details">Transactions on Machine Learning Research, 2024. <a class="resource-link" href="https://openreview.net/forum?id=Ve4Puj2LVT" aria-label="TMLR"><span class="resource-mark journal-mark">TMLR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2401.12508" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">Importance-sampling-based variance reduction improves sample complexity for general regularized expected-reward optimization.</p>
-              </div>
-              <figure class="paper-visual">
-              <table>
-                <caption>Samples to reach ε-stationarity</caption>
-                <thead><tr><th scope="col">Method</th><th scope="col">Sample complexity</th></tr></thead>
-                <tbody><tr><th scope="row">Stochastic proximal gradient</th><td>O(ε⁻⁴)</td></tr><tr><th scope="row">Variance-reduced proximal gradient with PAGE</th><td>O(ε⁻³)</td></tr></tbody>
-              </table>
-              <figcaption>Bounds hold under the respective assumptions; the improved rate uses additional conditions.</figcaption>
-            </figure>
-            </li>
-            <li id="paper-220414067">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2204.14067">Accelerating nuclear-norm regularized low-rank matrix optimization through Burer-Monteiro decomposition</a></h3>
-                <p class="paper-authors">Ching-pei Lee, <strong>Ling Liang</strong>, Tianyun Tang, and Kim-Chuan Toh</p>
-                <p class="paper-details">Journal of Machine Learning Research 25, no. 379 (2024): 1-52. <a class="resource-link" href="https://jmlr.org/papers/v25/23-0049.html" aria-label="JMLR"><span class="resource-mark journal-mark">JMLR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2204.14067" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/leepei/BM-Global/" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
-                <p class="paper-contribution">Cheap factorized steps gain the safeguards of convex optimization, while the algorithm adjusts the factorization rank automatically.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/bm-global.svg" aria-label="Open full-size visual: Low-rank Burer–Monteiro steps alternate with aperiodic proximal safeguards and rank adaptation.">
-                <img src="../images/research/bm-global.svg" width="600" height="280" alt="Low-rank Burer–Monteiro steps alternate with aperiodic proximal safeguards and rank adaptation." loading="lazy" decoding="async">
-              </a>
-              <figcaption>The schematic separates the fast factorized phase from the global-convergence safeguard.</figcaption>
-            </figure>
-            </li>
-          </ul>
-        </section>
-        <section class="research-theme" id="scientific-computing" aria-labelledby="scientific-computing-title">
-          <span id="transport-design" aria-hidden="true"></span><span id="optimal-transport" aria-hidden="true"></span><span id="experimental-design" aria-hidden="true"></span><span id="robotics" aria-hidden="true"></span>
-          <div class="theme-heading">
-            <h2 id="scientific-computing-title">Scientific Computing</h2>
-            <a class="back-to-top" href="#research" aria-label="Back to research topics">Topics ↑</a>
-          </div>
-          <p class="theme-intro"><strong>Turn mathematical models into computations that scale.</strong> I develop structure-aware numerical methods for large linear systems, optimal transport, and experimental design. Mixed precision and GPU computing accelerate demanding computations, while symbolic PDE methods and certifiable robot optimization address scientific and engineering problems.</p>
-          <ul class="paper-list" aria-label="Papers on Scientific Computing">
-            <li id="paper-260531425">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2605.31425">Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</a> <span class="preprint-badge">Preprint</span></h3>
-                <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
-                <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2605.31425" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">Low-precision screening and high-precision refinement reduce GPU work while retaining an accurate, fully checked enclosing ball.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/meb-baseline-comparison.png" aria-label="Open full-size visual: Runtime comparison of mp-ripALM, ripALM, CGAL, SCS, and CLARABEL for minimum enclosing balls in dimension 50.">
-                <img src="../images/research/meb-baseline-comparison.png" width="744" height="474" alt="Runtime in seconds on a logarithmic scale for mp-ripALM, ripALM, CGAL, SCS, and CLARABEL, with 1,000 to 100,000 balls in dimension 50." loading="lazy" decoding="async">
-              </a>
-              <figcaption>Runtime at d = 50 for 1,000–100,000 balls. ripALM and mp-ripALM run on GPU; CGAL, SCS, and CLARABEL run on CPU.</figcaption>
-            </figure>
-            </li>
+          <p class="theme-intro"><strong>Compare distributions and choose informative experiments.</strong> I develop efficient methods for optimal transport and experimental design, from Gromov–Wasserstein matching and capacity constraints to D-optimal and Bayesian design. Exploiting geometry, sparsity, and problem structure makes these models tractable at larger scales.</p>
+          <ul class="paper-list" aria-label="Papers on Optimal Transport &amp; Experimental Design">
             <li id="paper-260504175">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2605.04175">A provably convergent and practical algorithm for Gromov-Wasserstein optimal transport</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
                 <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2605.04175" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Distribution Matching</span></p>
                 <p class="paper-contribution">A practical inexact projected-gradient framework brings verifiable projection accuracy and convergence guarantees to Gromov–Wasserstein transport.</p>
               </div>
               <figure class="paper-visual">
@@ -307,6 +281,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2604.21849">Beyond expected information gain: stable Bayesian optimal experimental design with integral probability metrics and plug-and-play extensions</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors">Di Wu, <strong>Ling Liang</strong>, Haizhao Yang</p>
                 <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2604.21849" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Bayesian Inference</span></p>
                 <p class="paper-contribution">Integral probability metrics provide stable, geometry-aware alternatives to expected information gain for Bayesian experimental design.</p>
               </div>
               <figure class="paper-visual">
@@ -316,39 +291,12 @@
               <figcaption>Preference-learning example: design regions above 80% of each utility’s own peak.</figcaption>
             </figure>
             </li>
-            <li id="paper-240605846">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2406.05846">Fast and certifiable trajectory optimization</a></h3>
-                <p class="paper-authors">Shucheng Kang, Xiaoyang Xu, Jay Sarva, <strong>Ling Liang</strong>, and Heng Yang</p>
-                <p class="paper-details">in <em>Algorithmic Foundations of Robotics XVI, Volume 1: Proceedings of the Sixteenth Workshop on the Algorithmic Foundations of Robotics</em>, Springer Proceedings in Advanced Robotics, vol. 37, pp. 43-65, Springer, 2026. <a class="resource-link" href="https://link.springer.com/chapter/10.1007/978-3-032-09967-9_3" aria-label="Springer"><span class="resource-mark journal-mark">Springer</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2406.05846" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://computationalrobotics.seas.harvard.edu/project-strom/" aria-label="code"><span class="resource-mark code-mark">code</span></a>, <a href="https://www.tcoptrob.org/news/2025-04-16-best-paper/">Best Paper Award Finalist</a>.</p>
-                <p class="paper-contribution">Sparse SDP relaxations and GPU computation produce practical robot trajectories with computable global-optimality certificates.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/strom-trajectories.png" aria-label="Open full-size visual: Three optimized car back-in trajectories with successive car poses colored along each path.">
-                <img src="../images/research/strom-trajectories.png" width="1100" height="250" alt="Three optimized car back-in trajectories with successive car poses colored along each path." loading="lazy" decoding="async">
-              </a>
-              <figcaption>Car back-in trajectories. Across the paper’s five benchmarks, certified suboptimality is below 1%.</figcaption>
-            </figure>
-            </li>
-            <li id="paper-250309986">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2503.09986">From equations to insights: Unraveling symbolic structures in PDEs with LLMs</a> <span class="preprint-badge">Preprint</span></h3>
-                <p class="paper-authors">Rohan Bhatnagar, <strong>Ling Liang</strong>, Krish Patel, Haizhao Yang</p>
-                <p class="paper-details">2025. <a class="arxiv-link" href="https://arxiv.org/abs/2503.09986" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-                <p class="paper-contribution">LLMs predict operators in PDE solutions, narrowing symbolic search and improving interpretable analytical approximations.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/symbolic-pde.svg" aria-label="Open full-size visual: Symbolic PDE and boundary information feeds an LLM that predicts operators for a downstream symbolic solver.">
-                <img src="../images/research/symbolic-pde.svg" width="600" height="280" alt="Symbolic PDE and boundary information feeds an LLM that predicts operators for a downstream symbolic solver." loading="lazy" decoding="async">
-              </a>
-              <figcaption>A simplified view of operator prediction guiding symbolic solution construction.</figcaption>
-            </figure>
-            </li>
             <li id="paper-250203749">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2502.03749">PINS: Proximal iterations with sparse Newton and Sinkhorn for optimal transport</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors">Di Wu, <strong>Ling Liang</strong>, Haizhao Yang</p>
                 <p class="paper-details">2025. <a class="arxiv-link" href="https://arxiv.org/abs/2502.03749" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Sparse Newton Methods</span></p>
                 <p class="paper-contribution">Sparse Newton and Sinkhorn steps make entropic proximal iterations accurate and efficient, with large gains on the reported benchmarks.</p>
               </div>
               <figure class="paper-visual">
@@ -365,6 +313,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2407.03294">NewVEM: A Newton vertex exchange method for a class of constrained self-concordant minimization problems</a></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Kim-Chuan Toh, and Haizhao Yang</p>
                 <p class="paper-details">Journal of Scientific Computing 105, no. 64 (2025). <a class="resource-link" href="https://link.springer.com/article/10.1007/s10915-025-03096-5" aria-label="JSC"><span class="resource-mark journal-mark">JSC</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2407.03294" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Self-Concordant Optimization</span></p>
                 <p class="paper-contribution">Projected Newton outside and vertex exchange inside form a fast two-level method for self-concordant optimization over generalized simplices.</p>
               </div>
               <figure class="paper-visual">
@@ -374,25 +323,12 @@
               <figcaption>D-optimal design with a quadratic/trigonometric model (p = 4). Both methods use the stopping criterion λₖ ≤ 10⁻³.</figcaption>
             </figure>
             </li>
-            <li id="paper-240703272">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2407.03272">Nesterov's accelerated Jacobi-type methods for large-scale symmetric positive semidefinite linear systems</a></h3>
-                <p class="paper-authors"><strong>Ling Liang</strong>, Qiyuan Pang, Kim-Chuan Toh, and Haizhao Yang</p>
-                <p class="paper-details">SIAM Journal on Scientific Computing 47, no. 6 (2025). <a class="resource-link" href="https://epubs.siam.org/doi/10.1137/24M1673899" aria-label="SISC"><span class="resource-mark journal-mark">SISC</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2407.03272" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/liangling98/PSDLinearSolvers" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
-                <p class="paper-contribution">Nesterov acceleration improves Jacobi-type convergence while preserving the simple, parallel structure of the updates.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/accelerated-jacobi.svg" aria-label="Open full-size visual: Parallel row-block updates feeding an accelerated Jacobi step, with an O(1/k squared) objective rate.">
-                <img src="../images/research/accelerated-jacobi.svg" width="600" height="280" alt="Parallel row-block updates feeding an accelerated Jacobi step, with an O(1/k squared) objective rate." loading="lazy" decoding="async">
-              </a>
-              <figcaption>The rate is for the associated convex quadratic objective, under the method’s assumptions.</figcaption>
-            </figure>
-            </li>
             <li id="paper-240918392">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2409.18392">PNOD: An efficient projected Newton framework for exact optimal experimental designs</a> <span class="preprint-badge">Preprint</span></h3>
                 <p class="paper-authors"><strong>Ling Liang</strong>, Haizhao Yang</p>
                 <p class="paper-details">2024. <a class="arxiv-link" href="https://arxiv.org/abs/2409.18392" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/liangling98/PNOD.jl" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Integer Optimization</span></p>
                 <p class="paper-contribution">Efficient projected Newton node solves accelerate branch-and-bound for integer A- and D-optimal experimental designs.</p>
               </div>
               <figure class="paper-visual">
@@ -407,6 +343,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2311.06448">A sparse smoothing Newton method for solving discrete optimal transport problems</a></h3>
                 <p class="paper-authors">Di Hou, <strong>Ling Liang</strong>, and Kim-Chuan Toh</p>
                 <p class="paper-details">ACM Transactions on Mathematical Software 50, no. 3 (2024): 1-26. <a class="resource-link" href="https://dl.acm.org/doi/10.1145/3688800" aria-label="TOMS"><span class="resource-mark journal-mark">TOMS</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2311.06448" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Newton Methods</span></p>
                 <p class="paper-contribution">A Huber-based Newton method exploits sparse transport solutions to reduce computation and memory for OT and fixed-support Wasserstein barycenters.</p>
               </div>
               <figure class="paper-visual">
@@ -421,6 +358,7 @@
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2311.01976">A corrected inexact proximal augmented Lagrangian method with a relative error criterion for a class of group-quadratic regularized optimal transport problems</a></h3>
                 <p class="paper-authors">Lei Yang, <strong>Ling Liang</strong>, Hong T.M. Chu, and Kim-Chuan Toh</p>
                 <p class="paper-details">Journal of Scientific Computing 99, no. 79 (2024). <a class="resource-link" href="https://rdcu.be/dGWDG" aria-label="JSC"><span class="resource-mark journal-mark">JSC</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2311.01976" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Inexact Optimization</span></p>
                 <p class="paper-contribution">A single relative tolerance makes corrected proximal ALM with semismooth Newton subsolves practical for group-quadratic regularized transport.</p>
               </div>
               <figure class="paper-visual">
@@ -430,25 +368,12 @@
               <figcaption>Left: λ₁ = λ₂ = 0. Right: λ₁ = λ₂ = 1. Regularization changes the structure of the transport plan.</figcaption>
             </figure>
             </li>
-            <li id="paper-210514033">
-              <div class="paper-copy">
-                <h3><a class="paper-title" href="https://arxiv.org/abs/2105.14033">An inexact projected gradient method with rounding and lifting by nonlinear programming for solving rank-one semidefinite relaxation of polynomial optimization</a></h3>
-                <p class="paper-authors">Heng Yang, <strong>Ling Liang</strong>, Luca Carlone, and Kim-Chuan Toh</p>
-                <p class="paper-details">Mathematical Programming 201, no. 1-2 (2023): 409-472. <a class="resource-link" href="https://link.springer.com/article/10.1007/s10107-022-01912-6" aria-label="MP"><span class="resource-mark journal-mark">MP</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2105.14033" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/MIT-SPARK/STRIDE" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
-                <p class="paper-contribution">Safeguarded low-rank local search accelerates a globally convergent SDP method, combining fast nonconvex steps with convex guarantees.</p>
-              </div>
-              <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/stride-overview.png" aria-label="Open full-size visual: A polynomial objective and its SDP relaxation connected by rounding and lifting, with projected descent steps.">
-                <img src="../images/research/stride-overview.png" width="1044" height="426" alt="A polynomial objective and its SDP relaxation connected by rounding and lifting, with projected descent steps." loading="lazy" decoding="async">
-              </a>
-              <figcaption>The paper’s univariate example explains how rounding, local search, lifting, and SDP descent work together.</figcaption>
-            </figure>
-            </li>
             <li id="paper-201114312">
               <div class="paper-copy">
                 <h3><a class="paper-title" href="https://arxiv.org/abs/2011.14312">An efficient implementable inexact entropic proximal point algorithm for a class of linear programming problems</a></h3>
                 <p class="paper-authors">Hong T.M. Chu, <strong>Ling Liang</strong>, Kim-Chuan Toh, and Lei Yang</p>
                 <p class="paper-details">Computational Optimization and Applications 85, no. 1 (2023): 107-146. <a class="resource-link" href="https://link.springer.com/article/10.1007/s10589-023-00459-2" aria-label="COAP"><span class="resource-mark journal-mark">COAP</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2011.14312" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://blog.nus.edu.sg/mattohkc/softwares/ieppa/" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Linear Programming</span></p>
                 <p class="paper-contribution">Checkable inexact stopping rules make entropic proximal iterations practical for structured LPs, including capacity-constrained multi-marginal transport.</p>
               </div>
               <figure class="paper-visual">
@@ -460,7 +385,109 @@
             </li>
           </ul>
         </section>
-        <p class="research-note">Papers are grouped by their primary theme. <span class="preprint-badge">Preprint</span> identifies work not yet published or accepted.</p>
+        <section class="research-theme" id="learning-autonomous-systems" aria-labelledby="learning-autonomous-systems-title">
+          <span id="machine-learning" aria-hidden="true"></span><span id="machine-learning-title" aria-hidden="true"></span><span id="ai-robotics" aria-hidden="true"></span><span id="optimization-ai" aria-hidden="true"></span><span id="robotics" aria-hidden="true"></span>
+          <div class="theme-heading">
+            <h2 id="learning-autonomous-systems-title">Learning &amp; Autonomous Systems</h2>
+            <a class="back-to-top" href="#research" aria-label="Back to research topics">Topics ↑</a>
+          </div>
+          <p class="theme-intro"><strong>Connect optimization with learning and autonomous decision-making.</strong> I combine optimization and learning to automate mathematical modeling, tune algorithms, and uncover symbolic PDE structure. Algorithms for reinforcement learning and certifiable robot motion planning extend this work toward efficient learning and reliable decisions.</p>
+          <ul class="paper-list" aria-label="Papers on Learning &amp; Autonomous Systems">
+            <li id="paper-250416918">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2504.16918">OptimAI: Optimization from natural language using LLM-powered AI agents</a></h3>
+                <p class="paper-authors">Raghav Thind, Youran Sun, <strong>Ling Liang</strong>, Haizhao Yang</p>
+                <p class="paper-details">Journal of Machine Learning, accepted, 2026. <span class="resource-mark journal-mark">JML</span>, <a class="arxiv-link" href="https://arxiv.org/abs/2504.16918" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>LLM Agents</span> <span>Automated Modeling</span></p>
+                <p class="paper-contribution">Four cooperating LLM roles formulate, plan, implement, and debug optimization problems expressed in natural language.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/optimai-agents.svg" aria-label="Open full-size visual: The OptimAI formulator, planner, coder, and code critic, including a feedback loop for code refinement.">
+                <img src="../images/research/optimai-agents.svg" width="600" height="280" alt="The OptimAI formulator, planner, coder, and code critic, including a feedback loop for code refinement." loading="lazy" decoding="async">
+              </a>
+              <figcaption>A simplified architecture: structured roles and iterative debugging turn descriptions into executable solutions.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-240917320">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2409.17320">Accelerating multi-block constrained optimization by learning penalty parameters</a></h3>
+                <p class="paper-authors"><strong>Ling Liang</strong>, Cameron Austin, and Haizhao Yang</p>
+                <p class="paper-details">Communications on Pure and Applied Analysis, accepted, 2026. <span class="resource-mark journal-mark">CPAA</span>, <a class="arxiv-link" href="https://arxiv.org/abs/2409.17320" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Learning to Optimize</span> <span>Constrained Optimization</span></p>
+                <p class="paper-contribution">Learned penalty parameters accelerate multi-block MPALM, reducing the need for manual tuning on Lasso and optimal transport problems.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/learned-penalties.png" aria-label="Open full-size visual: Log-normalized MSE versus iteration for learned-penalty LMPALM and baselines on a Lasso problem with m=10 and n=20.">
+                <img src="../images/research/learned-penalties.png" width="548" height="408" alt="Log-normalized MSE versus iteration for learned-penalty LMPALM and baselines on a Lasso problem with m=10 and n=20." loading="lazy" decoding="async">
+              </a>
+              <figcaption>Lasso example, m = 10 and n = 20: log-normalized MSE versus iterations. LMPALM uses learned penalties.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-240605846">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2406.05846">Fast and certifiable trajectory optimization</a></h3>
+                <p class="paper-authors">Shucheng Kang, Xiaoyang Xu, Jay Sarva, <strong>Ling Liang</strong>, and Heng Yang</p>
+                <p class="paper-details">in <em>Algorithmic Foundations of Robotics XVI, Volume 1: Proceedings of the Sixteenth Workshop on the Algorithmic Foundations of Robotics</em>, Springer Proceedings in Advanced Robotics, vol. 37, pp. 43-65, Springer, 2026. <a class="resource-link" href="https://link.springer.com/chapter/10.1007/978-3-032-09967-9_3" aria-label="Springer"><span class="resource-mark journal-mark">Springer</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2406.05846" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://computationalrobotics.seas.harvard.edu/project-strom/" aria-label="code"><span class="resource-mark code-mark">code</span></a>, <a href="https://www.tcoptrob.org/news/2025-04-16-best-paper/">Best Paper Award Finalist</a>.</p>
+                <p class="paper-tags"><span>Robotics</span> <span>Semidefinite Optimization</span></p>
+                <p class="paper-contribution">Sparse SDP relaxations and GPU computation produce practical robot trajectories with computable global-optimality certificates.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/strom-trajectories.png" aria-label="Open full-size visual: Three optimized car back-in trajectories with successive car poses colored along each path.">
+                <img src="../images/research/strom-trajectories.png" width="1100" height="250" alt="Three optimized car back-in trajectories with successive car poses colored along each path." loading="lazy" decoding="async">
+              </a>
+              <figcaption>Car back-in trajectories. Across the paper’s five benchmarks, certified suboptimality is below 1%.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-250309986">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2503.09986">From equations to insights: Unraveling symbolic structures in PDEs with LLMs</a> <span class="preprint-badge">Preprint</span></h3>
+                <p class="paper-authors">Rohan Bhatnagar, <strong>Ling Liang</strong>, Krish Patel, Haizhao Yang</p>
+                <p class="paper-details">2025. <a class="arxiv-link" href="https://arxiv.org/abs/2503.09986" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Scientific Discovery</span> <span>Symbolic PDEs</span></p>
+                <p class="paper-contribution">LLMs predict operators in PDE solutions, narrowing symbolic search and improving interpretable analytical approximations.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/symbolic-pde.svg" aria-label="Open full-size visual: Symbolic PDE and boundary information feeds an LLM that predicts operators for a downstream symbolic solver.">
+                <img src="../images/research/symbolic-pde.svg" width="600" height="280" alt="Symbolic PDE and boundary information feeds an LLM that predicts operators for a downstream symbolic solver." loading="lazy" decoding="async">
+              </a>
+              <figcaption>A simplified view of operator prediction guiding symbolic solution construction.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-240112508">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2401.12508">On the stochastic (variance-reduced) proximal gradient method for regularized expected reward optimization</a></h3>
+                <p class="paper-authors"><strong>Ling Liang</strong>, Haizhao Yang</p>
+                <p class="paper-details">Transactions on Machine Learning Research, 2024. <a class="resource-link" href="https://openreview.net/forum?id=Ve4Puj2LVT" aria-label="TMLR"><span class="resource-mark journal-mark">TMLR</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2401.12508" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+                <p class="paper-tags"><span>Reinforcement Learning</span></p>
+                <p class="paper-contribution">Importance-sampling-based variance reduction improves sample complexity for general regularized expected-reward optimization.</p>
+              </div>
+              <figure class="paper-visual">
+              <table>
+                <caption>Samples to reach ε-stationarity</caption>
+                <thead><tr><th scope="col">Method</th><th scope="col">Sample complexity</th></tr></thead>
+                <tbody><tr><th scope="row">Stochastic proximal gradient</th><td>O(ε⁻⁴)</td></tr><tr><th scope="row">Variance-reduced proximal gradient with PAGE</th><td>O(ε⁻³)</td></tr></tbody>
+              </table>
+              <figcaption>Bounds hold under the respective assumptions; the improved rate uses additional conditions.</figcaption>
+            </figure>
+            </li>
+            <li id="paper-210514033">
+              <div class="paper-copy">
+                <h3><a class="paper-title" href="https://arxiv.org/abs/2105.14033">An inexact projected gradient method with rounding and lifting by nonlinear programming for solving rank-one semidefinite relaxation of polynomial optimization</a></h3>
+                <p class="paper-authors">Heng Yang, <strong>Ling Liang</strong>, Luca Carlone, and Kim-Chuan Toh</p>
+                <p class="paper-details">Mathematical Programming 201, no. 1-2 (2023): 409-472. <a class="resource-link" href="https://link.springer.com/article/10.1007/s10107-022-01912-6" aria-label="MP"><span class="resource-mark journal-mark">MP</span></a>, <a class="arxiv-link" href="https://arxiv.org/abs/2105.14033" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/MIT-SPARK/STRIDE" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+                <p class="paper-tags"><span>Robotics</span> <span>Semidefinite Optimization</span></p>
+                <p class="paper-contribution">Safeguarded low-rank local search accelerates a globally convergent SDP method, combining fast nonconvex steps with convex guarantees.</p>
+              </div>
+              <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/stride-overview.png" aria-label="Open full-size visual: A polynomial objective and its SDP relaxation connected by rounding and lifting, with projected descent steps.">
+                <img src="../images/research/stride-overview.png" width="1044" height="426" alt="A polynomial objective and its SDP relaxation connected by rounding and lifting, with projected descent steps." loading="lazy" decoding="async">
+              </a>
+              <figcaption>The paper’s univariate example explains how rounding, local search, lifting, and SDP descent work together.</figcaption>
+            </figure>
+            </li>
+          </ul>
+        </section>
+        <p class="research-note">Papers are grouped by their main research direction; tags highlight related methods and applications. <span class="preprint-badge">Preprint</span> identifies work not yet published or accepted.</p>
       </div>
     </main>
     <footer class="site-footer">
