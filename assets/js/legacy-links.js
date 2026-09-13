@@ -1,11 +1,11 @@
 // Keep links to sections of the previous single-page homepage working.
 const legacySections = {
-  "#research": "research/#research",
-  "#preprints": "research/#preprints",
-  "#publications": "research/#publications",
-  "#teaching": "teaching/#teaching",
-  "#invited-talks": "talks/#invited-talks",
-  "#openings": "openings/#openings",
+  "#research": "research/index.html#research",
+  "#preprints": "research/index.html#preprints",
+  "#publications": "research/index.html#publications",
+  "#teaching": "teaching/index.html#teaching",
+  "#invited-talks": "talks/index.html#invited-talks",
+  "#openings": "openings/index.html#openings",
 };
 
 function redirectLegacySection() {

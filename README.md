@@ -12,9 +12,11 @@ A static, English-language academic website. GitHub Pages can serve these files 
 
 Shared styles are in `assets/css/site.css`. Each page has a complete navigation bar and works without JavaScript. The small script in `assets/js/legacy-links.js` forwards links to the old homepage sections to their new pages.
 
+Internal page links explicitly include `index.html`, so navigation also works when opening the files directly in a browser without a web server.
+
 ## Local preview
 
-Run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory and open `http://127.0.0.1:8765/`.
+Open `index.html` directly in a browser, or run `python3 -m http.server 8765 --bind 127.0.0.1` from this directory and open `http://127.0.0.1:8765/`.
 
 ## Private Sites preview
 
