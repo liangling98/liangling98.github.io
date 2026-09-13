@@ -76,7 +76,7 @@ SVGs are schematics, examples, or an analytical illustration; their types and so
 | [2409.18392](https://arxiv.org/abs/2409.18392) | `images/research/pnod-tree.svg` | Method schematic. The schematic highlights the continuous relaxations that dominate node evaluation. [Paper](https://arxiv.org/abs/2409.18392) |
 | [2311.06448](https://arxiv.org/abs/2311.06448) | `images/research/sparse-transport.svg` | Method schematic. The matrix shows an illustrative sparsity pattern, not a measured transport plan. [Paper](https://arxiv.org/abs/2311.06448) |
 | [2311.01976](https://arxiv.org/abs/2311.01976) | `images/research/cipalm-transport.png` | Paper result. Left: λ₁ = λ₂ = 0. Right: λ₁ = λ₂ = 1. Regularization changes the structure of the transport plan. [Fig. 2, solution panels](https://arxiv.org/abs/2311.01976) |
-| [2011.14312](https://arxiv.org/abs/2011.14312) | `images/research/ieppa-tomography.png` | Paper result. A further application: reconstruction PSNR versus projection count for 256 × 256 images. [Fig. 4](https://arxiv.org/abs/2011.14312) |
+| [2011.14312](https://arxiv.org/abs/2011.14312) | `images/research/ieppa-gurobi-comparison.png` | Original runtime comparison for 3-marginal capacity-constrained optimal transport, n1 = n2 = n3 = n, n = 50 × id (50–500). The adjacent accuracy table reports iEPPA primal feasibility residuals near 10⁻⁶ and Gurobi residuals near 10⁻¹³–10⁻¹². This is a comparison at different achieved accuracies, not a matched-accuracy benchmark. Gurobi 9.5.1 uses the barrier method with presolve and crossover disabled; iEPPA uses a KKT stopping threshold of 10⁻⁵. Both run on the same CPU workstation. [Fig. 2, right; Sections 4 and 4.2](https://arxiv.org/abs/2011.14312) |
 | [2504.16918](https://arxiv.org/abs/2504.16918) | `images/research/optimai-agents.svg` | Method schematic. Simplified architecture based on Fig. 1: structured roles and iterative debugging turn descriptions into executable solutions. [Fig. 1](https://arxiv.org/abs/2504.16918) |
 | [2409.17320](https://arxiv.org/abs/2409.17320) | `images/research/learned-penalties.png` | Paper result. Lasso example, m = 10 and n = 20: log-normalized MSE versus iterations. LMPALM uses learned penalties. [Fig. 1, first panel](https://arxiv.org/abs/2409.17320) |
 | [2406.05846](https://arxiv.org/abs/2406.05846) | `images/research/strom-trajectories.png` | Paper result. Car back-in trajectories. Across the paper’s five benchmarks, certified suboptimality is below 1%. [Fig. 5, bottom](https://arxiv.org/abs/2406.05846) |
@@ -106,7 +106,7 @@ The following are direct Poppler renders from the locally supplied original PDFs
 | halpern-dro.png | liang2025inexact.pdf / 23 | 220 | 760, 558, 490, 480 |
 | boed-utility.png | wu2026beyond.pdf / 17 | 220 | 340, 505, 1210, 454 |
 | cipalm-transport.png | yang2024corrected.pdf / 25 | 220 | 718, 376, 916, 370 |
-| ieppa-tomography.png | chu2023efficient.pdf / 20 | 220 | 574, 1550, 722, 408 |
+| ieppa-gurobi-comparison.png | chu2023efficient.pdf / 19 | 300 | 1340, 1472, 812, 622 |
 | learned-penalties.png | liang2024accelerating.pdf / 9 | 440 | 680, 1528, 548, 408 |
 | strom-trajectories.png | kang2026fast.pdf / 16 | 220 | 395, 592, 1100, 250 |
 | stride-overview.png | yang2023inexact.pdf / 7 | 220 | 150, 158, 1044, 426 |
