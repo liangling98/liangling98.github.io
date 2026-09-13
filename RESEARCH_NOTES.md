@@ -50,9 +50,9 @@ Placement follows the main emphasis used on this page. Optimization contains gen
 
 ## Per-paper visual provenance
 
-Each of the 27 papers now has its own core-contribution sentence and visual: eight original-paper figure crops, six HTML tables, and thirteen SVG illustrations. No paper is duplicated. The three theme introductions remain, and the overview no longer displays paper counts. Original titles, authors, citations, links, and preprint labels remain intact.
+Each of the 27 papers now has its own core-contribution sentence and visual: eight original-paper figure crops, one chart plotted from paper data, six HTML tables, and twelve SVG illustrations. No paper is duplicated. The three theme introductions remain, and the overview no longer displays paper counts. Original titles, authors, citations, links, and preprint labels remain intact.
 
-SVGs are schematics, examples, or an analytical illustration; their types and sources are recorded below rather than shown as labels beneath the visuals. They do not depict measured benchmarks. The Huber plot evaluates the exact scalar function in Eq. (12) of arXiv:2303.05825 at epsilon 0.25 and 0.75. The NewVEM toy exchange preserves total mass and nonnegativity. The GW toy spaces are rigid transforms with identical pairwise distances. The sparse OT matrix is a schematic pattern only. Theory tables summarize guarantees under their respective assumptions.
+SVGs are schematics, examples, or an analytical illustration; their types and sources are recorded below rather than shown as labels beneath the visuals. They do not depict measured benchmarks. The Huber plot evaluates the exact scalar function in Eq. (12) of arXiv:2303.05825 at epsilon 0.25 and 0.75. The GW toy spaces are rigid transforms with identical pairwise distances. The sparse OT matrix is a schematic pattern only. Theory tables summarize guarantees under their respective assumptions.
 
 | Paper | Visual | Source / interpretation |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ SVGs are schematics, examples, or an analytical illustration; their types and so
 | [2605.04175](https://arxiv.org/abs/2605.04175) | `images/research/gromov-wasserstein.svg` | Illustrative example. Toy spaces illustrate matching within-space geometry; the algorithm uses verifiable inexact projections. [Paper](https://arxiv.org/abs/2605.04175) |
 | [2604.21849](https://arxiv.org/abs/2604.21849) | `images/research/boed-utility.png` | Paper result. Preference-learning example: design regions above 80% of each utility’s own peak. [Fig. 4, top](https://arxiv.org/abs/2604.21849) |
 | [2502.03749](https://arxiv.org/abs/2502.03749) | HTML table: Matched-accuracy wall time (seconds) | Paper result. Same EPPA outer iteration count and matched final accuracy. Selected rows from the paper; N is its MNIST augmentation setting. [Table 2](https://arxiv.org/pdf/2502.03749#page=7) |
-| [2407.03294](https://arxiv.org/abs/2407.03294) | `images/research/newvem-exchange.svg` | Illustrative example. Toy inner exchange; the outer Newton step supplies the quadratic model. These weights are illustrative, not benchmark data. [Paper](https://arxiv.org/abs/2407.03294) |
+| [2407.03294](https://arxiv.org/abs/2407.03294) | `images/research/newvem-d-optimal.png` | Measured results replotted with Matplotlib from Table 8 (TTime columns), local PDF page 23. D-optimal design with the quadratic/trigonometric design space χ3(n), p = 4; both methods use λₖ ≤ 10⁻³. [Paper](https://arxiv.org/abs/2407.03294) |
 | [2409.18392](https://arxiv.org/abs/2409.18392) | `images/research/pnod-tree.svg` | Method schematic. The schematic highlights the continuous relaxations that dominate node evaluation. [Paper](https://arxiv.org/abs/2409.18392) |
 | [2311.06448](https://arxiv.org/abs/2311.06448) | `images/research/sparse-transport.svg` | Method schematic. The matrix shows an illustrative sparsity pattern, not a measured transport plan. [Paper](https://arxiv.org/abs/2311.06448) |
 | [2311.01976](https://arxiv.org/abs/2311.01976) | `images/research/cipalm-transport.png` | Paper result. Left: λ₁ = λ₂ = 0. Right: λ₁ = λ₂ = 1. Regularization changes the structure of the transport plan. [Fig. 2, solution panels](https://arxiv.org/abs/2311.01976) |
@@ -83,6 +83,18 @@ SVGs are schematics, examples, or an analytical illustration; their types and so
 | [2503.09986](https://arxiv.org/abs/2503.09986) | `images/research/symbolic-pde.svg` | Method schematic. A simplified view of operator prediction guiding symbolic solution construction. [Paper](https://arxiv.org/abs/2503.09986) |
 | [2401.12508](https://arxiv.org/abs/2401.12508) | HTML table: Samples to reach ε-stationarity | Theory summary. Bounds hold under the respective assumptions; the improved rate uses additional conditions. [Paper](https://arxiv.org/abs/2401.12508) |
 | [2105.14033](https://arxiv.org/abs/2105.14033) | `images/research/stride-overview.png` | Paper illustration. The paper’s univariate example explains how rounding, local search, lifting, and SDP descent work together. [Fig. 1](https://link.springer.com/article/10.1007/s10107-022-01912-6) |
+
+### NewVEM D-optimal design chart
+
+`newvem-d-optimal.png` plots all five rows of Table 8 in `liang2025newvem.pdf` (page 23). Values below are total runtime (TTime) in seconds, not QP subproblem time. The horizontal axis is the number of candidate design points; the vertical axis is linear and starts at zero. Lines connect the reported measurements without smoothing. Both methods share the stopping threshold λₖ ≤ 10⁻³; their final λₖ values are not identical.
+
+| n | FWPN (s) | NewVEM (s) |
+| --- | --- | --- |
+| 10,000 | 54.45 | 7.81 |
+| 20,000 | 54.83 | 27.12 |
+| 30,000 | 206.33 | 59.05 |
+| 40,000 | 171.37 | 101.86 |
+| 50,000 | 240.29 | 156.19 |
 
 ### Original PDF crops
 
