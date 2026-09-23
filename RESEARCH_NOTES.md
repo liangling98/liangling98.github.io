@@ -1,6 +1,8 @@
-# Research page editorial notes
+# Research and Publication editorial notes
 
-Updated 2026-09-13. The page groups all 27 existing entries into Reliable & Scalable Optimization, Optimal Transport & Experimental Design, and Learning & Autonomous Systems, with one placement per paper. The review used the locally available original PDFs: abstracts for all papers, plus introductions, conclusions, and the relevant numerical sections for the featured results. Public arXiv records were also checked. Existing titles, authors, publication details, and resource links are preserved; the ten existing preprints carry a text badge. Accepted papers are not marked as preprints.
+Updated 2026-09-23. Research now presents expertise, interests, and significance across three directions. Publication contains all 27 existing entries, split into 10 preprints and 17 published/accepted papers and sorted by recorded year, then arXiv identifier, descending. Each entry retains its bibliographic metadata, links, tags, contribution sentence, and visual; tags and visuals appear in an expandable research highlight. Old paper bookmarks redirect to Publication.
+
+The following records the earlier review and the provenance of the retained highlights (2026-09-13). The page groups all 27 existing entries into Reliable & Scalable Optimization, Optimal Transport & Experimental Design, and Learning & Autonomous Systems, with one placement per paper. The review used the locally available original PDFs: abstracts for all papers, plus introductions, conclusions, and the relevant numerical sections for the featured results. Public arXiv records were also checked. Existing titles, authors, publication details, and resource links are preserved; the ten existing preprints carry a text badge. Accepted papers are not marked as preprints.
 
 ## Topic map
 
@@ -117,4 +119,8 @@ PINS timings are transcribed from Table 2: synthetic n=400 (PINS 1.455 s, Sinkho
 
 ## Maintenance
 
-The page is static HTML with a page-specific stylesheet, `assets/css/research.css`. All visuals and tables work when opening the HTML locally; no fetching, rendering library, or JavaScript is needed. Keep internal links explicit (`index.html`). Legacy section links continue to resolve to the corresponding research direction, including the earlier optimization, transport/design, and AI/robotics anchors. Add each new paper once under its primary research direction, with one appropriately sourced visual, a short contribution sentence, and one or two related-topic tags. Do not add paper counts to the topic navigation. Use plain explanatory captions beneath visuals without type subtitles or source links; retain provenance in this document and paper links in the bibliographic entries. Remove the `Preprint` badge when a paper is accepted or published. Bibliographic metadata is retained from the existing website rather than inferred from arXiv submission dates.
+Research and Publication are static HTML with page-specific stylesheets, `assets/css/research.css` and `assets/css/publication.css`. Keep Research focused on expertise, interests, and significance; add papers to Publication. Native `details` elements keep the full bibliography easy to scan while preserving contribution summaries and visuals without JavaScript. Keep internal links explicit (`index.html`) and paper IDs stable.
+
+Add each new paper once to Preprints or Published & Accepted Papers, in descending bibliographic year and then arXiv identifier order. Retain appropriately sourced visuals and plain explanatory captions; record provenance here. When a paper is accepted or published, move it to Published & Accepted Papers, update its citation, and remove the Preprint badge. Do not infer publication dates from arXiv submission dates.
+
+`assets/js/legacy-links.js` forwards old homepage sections. `assets/js/research-links.js` forwards old Research paper, preprint, and publication anchors. Research topic anchors remain on Research. All current navigation and publication details work with JavaScript disabled.

@@ -12,7 +12,7 @@ def main():
     output.mkdir()
 
     for name in ("index.html", ".nojekyll", "assets", "images", "files",
-                 "research", "teaching", "talks", "openings"):
+                 "research", "publication", "teaching", "talks", "openings"):
         source = root / name
         destination = output / name
         # Git does not retain the optional files/ directory while it is empty.
@@ -23,7 +23,7 @@ def main():
         else:
             shutil.copy2(source, destination)
 
-    print("Built five static pages in dist/.")
+    print("Built six static pages in dist/.")
 
 
 if __name__ == "__main__":
