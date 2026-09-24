@@ -12,7 +12,6 @@
 .paper-authors { margin-bottom: .2rem; color: var(--muted); }
 .paper-authors strong { color: var(--text); }
 .paper-details { margin-bottom: 0; color: var(--muted); font-size: .9375rem; line-height: 1.8; }
-.preprint-badge { display: inline-block; margin-left: .4rem; padding: 0 .45rem; border: 1px dashed #8f72b5; border-radius: 3px; background: #faf6ff; color: #6b418c; font-size: .875rem; font-weight: 500; line-height: 1.7; white-space: nowrap; }
 .paper-highlight { margin-top: .65rem; }
 .paper-highlight summary { width: fit-content; max-width: 100%; color: var(--accent); cursor: pointer; font-size: .875rem; }
 .paper-highlight summary:hover { text-decoration: underline; text-underline-offset: 3px; }
