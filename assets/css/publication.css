@@ -1,8 +1,9 @@
 .publication-page { max-width: 960px; }
 .publication-section { margin-bottom: 3rem; }
 .publication-section > h2 { padding-bottom: .8rem; margin-bottom: 0; border-bottom: 2px solid var(--accent-border); font-family: Georgia, "Times New Roman", serif; font-size: 1.75rem; font-weight: 400; }
-.publication-list { list-style: none; padding: 0; }
+.publication-list { list-style: decimal; padding: 0 0 0 2rem; }
 .publication-list > li { padding: 1.5rem 0; margin: 0; border-bottom: 1px solid var(--line); }
+.publication-list > li::marker { color: var(--text); font-size: 1.0625rem; font-weight: 700; }
 .publication-list > li:last-child { border-bottom: 0; }
 .publication-list > li:target { padding-inline: 1rem; border-radius: 5px; background: var(--soft); }
 .publication-list h3 { margin-bottom: .4rem; font-size: 1.0625rem; line-height: 1.55; }

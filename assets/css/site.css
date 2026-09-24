@@ -47,7 +47,6 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-
 .skip-link:focus { top: 1rem; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding-block: 1.3rem; border-bottom: 1px solid var(--line); }
 .site-name { color: var(--text); font-size: 1.2rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
-.site-name::after { content: ""; display: inline-block; width: .4rem; height: .4rem; margin-left: .35rem; border-radius: 50%; background: var(--terracotta); }
 .site-nav { display: flex; flex-wrap: wrap; gap: .3rem .45rem; }
 .site-nav a { --nav-accent: var(--blue); --nav-soft: var(--blue-soft); padding: .45rem .7rem; color: var(--muted); font-size: .9375rem; text-decoration: none; border-bottom: 2px solid transparent; border-radius: 5px 5px 0 0; }
 .site-nav a[href$="teaching/index.html"] { --nav-accent: var(--teal); --nav-soft: var(--teal-soft); }
@@ -141,7 +140,7 @@ li { padding-left: .2rem; margin-bottom: .65rem; }
 }
 @media print {
   body { border-top: 0; border-image: none; background: #fff; font-size: 11pt; }
-  .profile::before, .site-name::after { display: none; }
+  .profile::before { display: none; }
   .page-heading, .opening-callout { background: #fff; }
   .container { width: 100%; }
   .site-nav, .skip-link, .site-footer, .page-links { display: none; }
