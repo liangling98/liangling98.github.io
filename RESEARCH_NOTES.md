@@ -119,8 +119,8 @@ PINS timings are transcribed from Table 2: synthetic n=400 (PINS 1.455 s, Sinkho
 
 ## Maintenance
 
-Research and Publication are static HTML with page-specific stylesheets, `assets/css/research.css` and `assets/css/publication.css`. Keep Research focused on expertise, interests, and significance; add papers to Publication. Native `details` elements keep the full bibliography easy to scan while preserving contribution summaries and visuals without JavaScript. Keep internal links explicit (`index.html`) and paper IDs stable.
+The Research section on Home and the Publication page are static HTML with dedicated stylesheets, `assets/css/research.css` and `assets/css/publication.css`. Keep the Home research section focused on expertise, interests, and significance; add papers to Publication. The standalone Research page has been removed. Native `details` elements keep the full bibliography easy to scan while preserving contribution summaries and visuals without JavaScript. Keep internal links explicit (`index.html`) and paper IDs stable.
 
 Add each new paper once to Preprints or Published & Accepted Papers, in descending bibliographic year and then arXiv identifier order. Retain appropriately sourced visuals and plain explanatory captions; record provenance here. When a paper is accepted or published, move it to Published & Accepted Papers, update its citation, and remove the Preprint badge. Do not infer publication dates from arXiv submission dates.
 
-`assets/js/legacy-links.js` forwards old homepage sections. `assets/js/research-links.js` forwards old Research paper, preprint, and publication anchors. Research topic anchors remain on Research. All current navigation and publication details work with JavaScript disabled.
+`assets/js/legacy-links.js` forwards old homepage sections that now have separate pages. Research and its topic anchors remain on Home. The standalone Research page's paper-bookmark redirect script has been removed with that page. All current navigation and publication details work with JavaScript disabled.

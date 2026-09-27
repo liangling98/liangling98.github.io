@@ -1,4 +1,6 @@
-.publication-page { max-width: 960px; }
+.publication-page { width: 100%; }
+.publication-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 1.5rem; }
+.publication-heading .profile-links { margin-top: 0; }
 .publication-section { margin-bottom: 3rem; }
 .publication-section > h2 { padding-bottom: .8rem; margin-bottom: 0; border-bottom: 2px solid var(--accent-border); font-family: Georgia, "Times New Roman", serif; font-size: 1.75rem; font-weight: 400; }
 .publication-list { list-style: decimal; padding: 0 0 0 2rem; }

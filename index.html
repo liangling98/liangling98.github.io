@@ -6,6 +6,7 @@
   <meta name="description" content="Ling Liang, Assistant Professor of Mathematics at the University of Tennessee, Knoxville. Biography, experience, education, and contact information.">
   <title>Ling Liang | Mathematics · UT Knoxville</title>
   <link rel="stylesheet" href="./assets/css/site.css">
+  <link rel="stylesheet" href="./assets/css/research.css">
   <script src="./assets/js/legacy-links.js" defer></script>
 </head>
 <body class="page-home">
@@ -15,7 +16,6 @@
       <a class="site-name" href="./index.html">Ling Liang</a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="./index.html" aria-current="page">Home</a>
-        <a href="./research/index.html">Research</a>
         <a href="./publication/index.html">Publication</a>
         <a href="./teaching/index.html">Teaching</a>
         <a href="./talks/index.html">Talks</a>
@@ -23,67 +23,83 @@
       </nav>
     </header>
     <main id="main" tabindex="-1">
-      <div class="profile">
+      <section class="profile" id="about" aria-labelledby="profile-name">
         <div>
-          <h1>Ling Liang</h1>
+          <h1 id="profile-name">Ling Liang</h1>
           <p class="role">Assistant Professor</p>
           <p class="affiliation"><a href="https://math.utk.edu/">Department of Mathematics</a>, University of Tennessee, Knoxville</p>
           <p class="contact"><a href="mailto:lliang7@utk.edu">lliang7@utk.edu</a> <span aria-hidden="true">·</span> <a href="mailto:liang.ling@u.nus.edu">liang.ling@u.nus.edu</a></p>
+          <div class="profile-bio">
+            <p>I joined UT Knoxville in August 2025. Previously, I was a postdoc at the University of Maryland, College Park (August 2023–July 2025), working with <a href="https://haizhaoyang.github.io/">Dr. Haizhao Yang</a>, and a Research Fellow at the National University of Singapore (January 2022–July 2023). I received my Ph.D. from the National University of Singapore in November 2021, advised by <a href="https://blog.nus.edu.sg/mattohkc/">Dr. Kim-Chuan Toh</a>, and my B.S. from the University of Science and Technology of China in June 2017.</p>
+          </div>
         </div>
         <img class="portrait" src="./images/lingliang.jpg" alt="Portrait of Ling Liang" width="180" height="225" fetchpriority="high">
-      </div>
-      <section class="section-grid" id="about" aria-labelledby="about-title">
-        <h2 id="about-title">About</h2>
-        <div class="section-content">
-          <p>I am an Assistant Professor in the Department of Mathematics at the University of Tennessee, Knoxville. My <a href="./research/index.html">research</a> focuses on large-scale optimization, with applications in machine learning, scientific computing, and engineering.</p>
-          <p>I received my Ph.D. in Mathematics from the National University of Singapore, advised by <a href="https://blog.nus.edu.sg/mattohkc/">Dr. Kim-Chuan Toh</a>. Before joining UT Knoxville, I was a postdoc at the University of Maryland, College Park, working with <a href="https://haizhaoyang.github.io/">Dr. Haizhao Yang</a>.</p>
+      </section>
+
+      <section class="research-page" id="research" aria-labelledby="research-page-title">
+        <div class="page-heading">
+          <h1 id="research-page-title">Research</h1>
+          <p class="research-lead">Reliable optimization for large-scale decisions.</p>
+          <p>I develop the mathematics and algorithms that turn challenging optimization problems into practical computations. My expertise lies in exploiting structure—sparsity, low rank, and convexity—to build methods that are fast, scalable, and supported by convergence guarantees.</p>
+          <p>I am interested in how these methods can make better use of data, guide scientific experiments, and support learning and autonomous decision-making.</p>
+          <p class="publication-link"><a href="./publication/index.html">Explore all publications and preprints <span aria-hidden="true">→</span></a></p>
         </div>
+
+        <section class="research-theme" id="optimization" aria-labelledby="optimization-title">
+          <div class="theme-heading">
+            <h2 id="optimization-title">Reliable &amp; Scalable Optimization</h2>
+          </div>
+          <p class="theme-intro">Make large problems tractable without losing mathematical guarantees.</p>
+          <dl class="research-focus">
+            <div>
+              <dt>Methods</dt>
+              <dd>Newton and proximal methods, augmented Lagrangian algorithms, and convergence analysis for structured convex and conic optimization. I use sparsity and low-rank structure to reduce computational cost.</dd>
+            </div>
+            <div>
+              <dt>Research Directions</dt>
+              <dd>Algorithms that remain reliable when computations are approximate, distributed across a network, or performed at mixed precision on GPUs. I want to connect rigorous error control with the speed of modern hardware.</dd>
+            </div>
+          </dl>
+          <p class="research-impact"><strong>Significance:</strong> Optimization sits inside scientific computing, data analysis, and engineering. Faster solvers with checkable accuracy let us tackle larger problems and understand when their answers can be trusted.</p>
+        </section>
+
+        <section class="research-theme" id="transport-design" aria-labelledby="transport-design-title">
+          <div class="theme-heading">
+            <h2 id="transport-design-title">Optimal Transport &amp; Experimental Design</h2>
+          </div>
+          <p class="theme-intro">Compare complex data. Choose more informative experiments.</p>
+          <dl class="research-focus">
+            <div>
+              <dt>Methods</dt>
+              <dd>Sparse Newton and proximal algorithms for optimal transport, and efficient continuous and integer optimization for experimental design. These methods exploit the geometry and structure of each problem.</dd>
+            </div>
+            <div>
+              <dt>Research Directions</dt>
+              <dd>Scalable transport methods for comparing distributions and matching geometric structures, together with experimental designs that account for uncertainty and the geometry of probability distributions.</dd>
+            </div>
+          </dl>
+          <p class="research-impact"><strong>Significance:</strong> Data often come as distributions or geometric objects, and collecting new measurements can be expensive. Optimal transport helps compare these data; experimental design helps decide which measurements are most informative.</p>
+        </section>
+
+        <section class="research-theme" id="learning-autonomous-systems" aria-labelledby="learning-autonomous-systems-title">
+          <div class="theme-heading">
+            <h2 id="learning-autonomous-systems-title">Learning &amp; Autonomous Systems</h2>
+          </div>
+          <p class="theme-intro">Use learning to improve optimization—and optimization to support reliable decisions.</p>
+          <dl class="research-focus">
+            <div>
+              <dt>Methods</dt>
+              <dd>Learning algorithm parameters, stochastic optimization for reinforcement learning, and semidefinite relaxations for certifiable robot motion planning. My work also explores LLM agents for mathematical modeling and symbolic scientific discovery.</dd>
+            </div>
+            <div>
+              <dt>Research Directions</dt>
+              <dd>Combining the adaptability of learning with mathematical structure: automating optimization from natural language, uncovering interpretable equations, and computing robot trajectories with certificates of solution quality.</dd>
+            </div>
+          </dl>
+          <p class="research-impact"><strong>Significance:</strong> Learning can reduce manual modeling and algorithm tuning. Optimization provides a way to enforce constraints and assess solution quality—essential when decisions must respect physical limits or scientific requirements.</p>
+        </section>
       </section>
-      <section class="section-grid" id="experience" aria-labelledby="experience-title">
-        <h2 id="experience-title">Experience</h2>
-        <ol class="history">
-          <li>
-            <h3>Assistant Professor</h3>
-            <span class="dates">Aug 2025–present</span>
-            <p>Department of Mathematics, University of Tennessee, Knoxville</p>
-          </li>
-          <li>
-            <h3>Postdoc</h3>
-            <span class="dates">Aug 2023–Jul 2025</span>
-            <p>Department of Mathematics, University of Maryland, College Park <span class="note">· Host: <a href="https://haizhaoyang.github.io/">Dr. Haizhao Yang</a></span></p>
-          </li>
-          <li>
-            <h3>Visiting Researcher</h3>
-            <span class="dates">Mar 2023–Jun 2023</span>
-            <p>Weierstrass Institute for Applied Analysis and Stochastics <span class="note">· Host: <a href="https://jj-zhu.github.io/">Dr. Jia-Jie Zhu</a></span></p>
-          </li>
-          <li>
-            <h3>Research Fellow</h3>
-            <span class="dates">Jan 2022–Jul 2023</span>
-            <p>Department of Mathematics, National University of Singapore <span class="note">· Host: <a href="https://blog.nus.edu.sg/mattohkc/">Dr. Kim-Chuan Toh</a></span></p>
-          </li>
-          <li>
-            <h3>Teaching Assistant</h3>
-            <span class="dates">Aug 2017–Dec 2021</span>
-            <p>Department of Mathematics, National University of Singapore</p>
-          </li>
-        </ol>
-      </section>
-      <section class="section-grid" id="education" aria-labelledby="education-title">
-        <h2 id="education-title">Education</h2>
-        <ol class="history">
-          <li>
-            <h3>Ph.D. in Mathematics</h3>
-            <span class="dates">Nov 2021</span>
-            <p>National University of Singapore <span class="note">· Advisor: <a href="https://blog.nus.edu.sg/mattohkc/">Dr. Kim-Chuan Toh</a></span></p>
-          </li>
-          <li>
-            <h3>B.S. in Mathematics</h3>
-            <span class="dates">Jun 2017</span>
-            <p>University of Science and Technology of China <span class="note">· Advisor: <a href="http://staff.ustc.edu.cn/~yangzw/">Dr. Zhouwang Yang</a></span></p>
-          </li>
-        </ol>
-      </section>
+
     </main>
     <footer class="site-footer">
       <p>Ling Liang · University of Tennessee, Knoxville</p>

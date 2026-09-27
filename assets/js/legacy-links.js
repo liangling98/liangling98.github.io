@@ -1,6 +1,5 @@
 // Keep links to sections of the previous single-page homepage working.
 const legacySections = {
-  "#research": "research/index.html#research",
   "#preprints": "publication/index.html#preprints",
   "#publications": "publication/index.html#publications",
   "#teaching": "teaching/index.html#teaching",
