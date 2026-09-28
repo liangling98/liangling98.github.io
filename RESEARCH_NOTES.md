@@ -1,6 +1,6 @@
 # Research and Publication editorial notes
 
-Updated 2026-09-23. Research now presents expertise, interests, and significance across three directions. Publication contains all 27 existing entries, split into 9 preprints and 18 published/accepted papers and sorted by recorded year, then arXiv identifier, descending. Each entry retains its bibliographic metadata, links, tags, contribution sentence, and visual; tags and visuals appear in an expandable research highlight. Old paper bookmarks redirect to Publication. Per the author’s update, “From equations to insights: Unraveling symbolic structures in PDEs with LLMs” is accepted in SIAM Journal on Scientific Computing (SISC) in 2026. It appears among the 2026 Published & Accepted Papers; no DOI has been supplied.
+Updated 2026-09-27. The Research section on Home presents methods, research directions, and significance across three areas. Publication contains all 27 existing entries, split into 8 preprints and 19 published/accepted papers and sorted by recorded year, then arXiv identifier, descending. Each expandable Research highlight contains the paper's full abstract, author keywords (or clearly labeled topics when keywords are absent), the existing contribution sentence, and its visual. Bibliographic metadata, resource links, and paper IDs remain intact. Per the author’s update, “From equations to insights: Unraveling symbolic structures in PDEs with LLMs” is accepted in SIAM Journal on Scientific Computing (SISC) in 2026. It appears among the 2026 Published & Accepted Papers; no DOI has been supplied.
 
 The following records the earlier review and the provenance of the retained highlights (2026-09-13). The page groups all 27 existing entries into Reliable & Scalable Optimization, Optimal Transport & Experimental Design, and Learning & Autonomous Systems, with one placement per paper. The review used the locally available original PDFs: abstracts for all papers, plus introductions, conclusions, and the relevant numerical sections for the featured results. Public arXiv records were also checked. Existing titles, authors, publication details, and resource links are preserved; the ten existing preprints carry a text badge. Accepted papers are not marked as preprints.
 
@@ -116,6 +116,44 @@ The following are direct Poppler renders from the locally supplied original PDFs
 | stride-overview.png | yang2023inexact.pdf / 7 | 220 | 150, 158, 1044, 426 |
 
 PINS timings are transcribed from Table 2: synthetic n=400 (PINS 1.455 s, Sinkhorn+EPPA 47.68 s), MNIST N=2 (1.66 s, 24.66 s), and MNIST N=4 (51.74 s, 3793.2 s). The methods use the same EPPA outer iteration count and matched final accuracy. These are existing reported measurements, not new website benchmarks. The stochastic proximal-gradient table reports theoretical sample complexity; the variance-reduced rate uses additional assumptions.
+
+## Abstract and keyword sources (2026-09-27)
+
+Each Research highlight now contains the complete abstract and the paper's keywords in its left column, followed by the existing contribution sentence. The right-hand visuals, paper metadata, links, ordering, and stable IDs are retained. The former broad topic tags are replaced with the paper's own keyword list where available.
+
+Sources are the locally supplied PDFs in `Research_Knowledge_Base/papers/`. Abstract wording follows these source versions, which may differ from later revisions. PDF line breaks, ligatures, hyphenation artifacts, and mathematical superscripts/subscripts are normalized for HTML; author affiliations, running headers, and footnotes are excluded from abstracts. The STRIDE abstract continues onto page 2; the Halpern paper's keywords appear on page 2. QPPAL uses its “Additional Key Words and Phrases” list.
+
+Five PDFs do not list author keywords: PINS, Gromov–Wasserstein, OptimAI, STROM, and stochastic proximal gradient. Their relevant concepts are drawn from their abstracts and explicitly labeled **Topics**, with an explanatory tooltip, rather than presented as author-supplied **Keywords**.
+
+| arXiv | Source PDF | Abstract pages | Keyword source |
+| --- | --- | --- | --- |
+| [2605.31425](https://arxiv.org/abs/2605.31425) | `liang2026mixed.pdf` | 1 | Author keywords |
+| [2604.21849](https://arxiv.org/abs/2604.21849) | `wu2026beyond.pdf` | 1 | Author keywords |
+| [2603.19147](https://arxiv.org/abs/2603.19147) | `yang2026fast.pdf` | 1 | Author keywords |
+| [2602.06398](https://arxiv.org/abs/2602.06398) | `zhu2026d.pdf` | 1 | Author keywords |
+| [2510.25261](https://arxiv.org/abs/2510.25261) | `yang2025convergence.pdf` | 1 | Author keywords |
+| [2502.03749](https://arxiv.org/abs/2502.03749) | `wu2025pins.pdf` | 1 | Topics from abstract |
+| [2411.13267](https://arxiv.org/abs/2411.13267) | `zhu2024ripalm.pdf` | 1 | Author keywords |
+| [2409.18392](https://arxiv.org/abs/2409.18392) | `liang2024pnod.pdf` | 1 | Author keywords |
+| [2605.04175](https://arxiv.org/abs/2605.04175) | `liang2026provably.pdf` | 1 | Topics from abstract |
+| [2503.09986](https://arxiv.org/abs/2503.09986) | `bhatnagar2025equations.pdf` | 1 | Author keywords |
+| [2504.16918](https://arxiv.org/abs/2504.16918) | `thind2025optimai.pdf` | 1 | Topics from abstract |
+| [2409.17320](https://arxiv.org/abs/2409.17320) | `liang2024accelerating.pdf` | 1 | Author keywords |
+| [2406.05846](https://arxiv.org/abs/2406.05846) | `kang2026fast.pdf` | 1 | Topics from abstract |
+| [2407.03294](https://arxiv.org/abs/2407.03294) | `liang2025newvem.pdf` | 1 | Author keywords |
+| [2407.03272](https://arxiv.org/abs/2407.03272) | `liang2025nesterov.pdf` | 1 | Author keywords |
+| [2402.06033](https://arxiv.org/abs/2402.06033) | `liang2025inexact.pdf` | 1 | Author keywords (page 2) |
+| [2303.05825](https://arxiv.org/abs/2303.05825) | `liang2025squared.pdf` | 1 | Author keywords |
+| [2401.12508](https://arxiv.org/abs/2401.12508) | `liang2024stochastic.pdf` | 1 | Topics from abstract |
+| [2311.06448](https://arxiv.org/abs/2311.06448) | `hou2024sparse.pdf` | 1 | Author keywords |
+| [2311.01976](https://arxiv.org/abs/2311.01976) | `yang2024corrected.pdf` | 1 | Author keywords |
+| [2204.14067](https://arxiv.org/abs/2204.14067) | `lee2024accelerating.pdf` | 1 | Author keywords |
+| [2105.14033](https://arxiv.org/abs/2105.14033) | `yang2023inexact.pdf` | 1–2 | Author keywords |
+| [2011.14312](https://arxiv.org/abs/2011.14312) | `chu2023efficient.pdf` | 1 | Author keywords |
+| [2103.13108](https://arxiv.org/abs/2103.13108) | `liang2022qppal.pdf` | 1 | Additional Key Words and Phrases |
+| [2009.11272](https://arxiv.org/abs/2009.11272) | `cui2022degenerate.pdf` | 1 | Author keywords |
+| [1812.05243](https://arxiv.org/abs/1812.05243) | `tran2022new.pdf` | 1 | Author keywords |
+| [2010.08772](https://arxiv.org/abs/2010.08772) | `liang2021inexact.pdf` | 1 | Author keywords |
 
 ## Maintenance
 

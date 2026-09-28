@@ -5,7 +5,7 @@ A static, English-language academic website. GitHub Pages can serve these files 
 ## Pages
 
 - `index.html`: biography, contact information, experience, education, and research expertise and interests.
-- `publication/index.html`: all preprints and published/accepted papers, with expandable research highlights.
+- `publication/index.html`: all preprints and published/accepted papers, with expandable research highlights containing abstracts, keywords, contribution summaries, and visuals.
 - `teaching/index.html`: teaching history.
 - `talks/index.html`: invited talks.
 - `openings/index.html`: research opportunities and contact information.

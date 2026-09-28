@@ -18,9 +18,12 @@
 .paper-highlight summary { width: fit-content; max-width: 100%; color: var(--accent); cursor: pointer; font-size: .875rem; }
 .paper-highlight summary:hover { text-decoration: underline; text-underline-offset: 3px; }
 .paper-highlight summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
-.publication-highlight { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; gap: 1.5rem; padding-top: 1rem; }
-.paper-tags { display: flex; flex-wrap: wrap; gap: .3rem .4rem; margin: 0 0 .75rem; color: var(--muted); font-size: .875rem; line-height: 1.65; }
-.paper-tags span { padding: .1rem .45rem; border: 1px solid var(--line); border-radius: 3px; background: #fff; }
+.publication-highlight { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); align-items: start; gap: clamp(1.5rem, 3vw, 3rem); padding-top: 1rem; }
+.paper-text { min-width: 0; }
+.paper-metadata-heading { margin: 0 0 .5rem; color: var(--accent); font-size: .9375rem; line-height: 1.4; }
+.paper-abstract { margin: 0 0 1.25rem; font-size: 1rem; line-height: 1.7; }
+.paper-tags { display: flex; flex-wrap: wrap; gap: .3rem .4rem; margin: 0 0 1.25rem; color: var(--muted); font-size: .875rem; line-height: 1.65; }
+.paper-tags span { max-width: 100%; padding: .1rem .45rem; border: 1px solid var(--line); border-radius: 3px; background: #fff; }
 .paper-contribution { margin: 0; padding: .75rem 1rem; border-left: 2px solid var(--accent-border); border-radius: 0 4px 4px 0; background: var(--soft); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .paper-visual { min-width: 0; margin: 0; border: 1px solid var(--accent-border); border-radius: 6px; overflow: hidden; background: #fff; }
@@ -35,7 +38,7 @@
 .paper-visual tbody th { font-weight: 500; }
 .paper-visual tbody td { color: var(--accent); }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .publication-highlight { grid-template-columns: 1fr; gap: 1rem; }
   .paper-visual { max-width: 600px; }
 }
