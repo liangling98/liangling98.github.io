@@ -39,6 +39,31 @@
         <section class="publication-section" id="preprints" aria-labelledby="preprints-title">
           <h2 id="preprints-title">Preprints</h2>
           <ol class="publication-list">
+            <li id="paper-261005742">
+              <h3><a class="paper-title" href="https://arxiv.org/abs/2610.05742">An Inexact Halpern-accelerated Preconditioned Generalized Proximal Point Algorithm for the Maximal Monotone Inclusion Problem</a></h3>
+              <p class="paper-authors">Lei Yang, Haihang Lan, Di Hou, <strong>Ling Liang</strong>, Kim-Chuan Toh</p>
+              <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2610.05742" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+              <details class="paper-highlight">
+                <summary>Research highlight<span class="visually-hidden">: An Inexact Halpern-accelerated Preconditioned Generalized Proximal Point Algorithm for the Maximal Monotone Inclusion Problem</span></summary>
+                <div class="publication-highlight">
+                  <div class="paper-text">
+                    <h4 class="paper-metadata-heading">Keywords</h4>
+                    <p class="paper-tags"><span>Maximal Monotone Inclusion Problem</span> <span>Halpern Iteration</span> <span>Inexact Computation</span> <span>Preconditioned Accelerated Proximal Point Algorithms</span></p>
+                    <h4 class="paper-metadata-heading">Abstract</h4>
+                    <p class="paper-abstract">This paper studies an inexact Halpern-accelerated generalized proximal point algorithm with an admissible positive semidefinite preconditioner M for solving maximal monotone inclusion problems. The proposed framework combines Halpern anchoring, resolvent inexactness, and relaxation over the full weight range ρ ∈ (0, 2], thereby covering both under-relaxed and over-relaxed proximal iterations within a unified scheme. We first establish convergence of the inexact resolvent sequence under conditions that allow general anchoring parameters and certain nonsummable tolerances. For anchoring parameters β<sub>k</sub> = 1/(k + r) with r ≥ 2, we then derive explicit bounds on the squared fixed-point residual in the M-seminorm. In particular, if the tolerances satisfy ε<sub>k</sub> = O((k + 1)<sup>−α</sup>) with α &gt; 3/2 for 0 &lt; ρ &lt; 2 and α &gt; 2 for ρ = 2, these bounds yield an O(1/k<sup>2</sup>) convergence rate. The stronger decay condition on the inexactness tolerances at ρ = 2 highlights a qualitative distinction between the endpoint and the interior regime in the inexact setting. Finally, we develop inexact accelerated versions of the preconditioned alternating direction method of multipliers (pADMM) and the preconditioned primal–dual hybrid gradient (PDHG) method based on this framework, derive inexactness criteria based on subproblem residuals, and establish a nonergodic O(1/k) KKT residual rate for their inexact iterates.</p>
+                    <p class="paper-contribution">Halpern acceleration accommodates inexact preconditioned proximal solves across the full relaxation range, with computable residual criteria for accelerated pADMM and PDHG.</p>
+                  </div>
+                  <figure class="paper-visual">
+                    <table>
+                      <caption>Error decay for an O(1/k<sup>2</sup>) squared residual rate</caption>
+                      <thead><tr><th scope="col">Relaxation</th><th scope="col">Tolerance exponent</th></tr></thead>
+                      <tbody><tr><th scope="row">Interior: 0 &lt; ρ &lt; 2</th><td>α &gt; 3/2</td></tr><tr><th scope="row">Endpoint: ρ = 2</th><td>α &gt; 2</td></tr></tbody>
+                    </table>
+                    <figcaption>For ε<sub>k</sub> = O((k + 1)<sup>−α</sup>) and β<sub>k</sub> = 1/(k + r), r ≥ 2, under the paper’s assumptions. The rate concerns the squared fixed-point residual in the M-seminorm.</figcaption>
+                  </figure>
+                </div>
+              </details>
+            </li>
             <li id="paper-260531425">
               <h3><a class="paper-title" href="https://arxiv.org/abs/2605.31425">Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</a></h3>
               <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
