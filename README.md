@@ -7,7 +7,7 @@ A static, English-language academic website. GitHub Pages can serve these files 
 - `index.html`: biography, contact information, experience, education, and research expertise and interests.
 - `publication/index.html`: all preprints and published/accepted papers, with expandable research highlights containing abstracts, keywords, contribution summaries, and visuals.
 - `teaching/index.html`: teaching history.
-- `talks/index.html`: invited talks.
+- `talks/index.html`: invited talks and conference presentations.
 - `openings/index.html`: research opportunities and contact information.
 
 Shared styles are in `assets/css/site.css`. Each page has a complete navigation bar and works without JavaScript. The small script in `assets/js/legacy-links.js` forwards old homepage sections to their current pages; research remains on Home at `index.html#research`.
