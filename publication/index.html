@@ -64,29 +64,6 @@
                 </div>
               </details>
             </li>
-            <li id="paper-260531425">
-              <h3><a class="paper-title" href="https://arxiv.org/abs/2605.31425">Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</a></h3>
-              <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
-              <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2605.31425" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
-              <details class="paper-highlight">
-                <summary>Research highlight<span class="visually-hidden">: Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</span></summary>
-                <div class="publication-highlight">
-                  <div class="paper-text">
-                    <h4 class="paper-metadata-heading">Keywords</h4>
-                    <p class="paper-tags"><span>Minimum Enclosing Ball</span> <span>Relative-type Inexact Proximal Augmented Lagrangian Method</span> <span>Mixed-precision</span> <span>GPU Acceleration</span> <span>Second-order Cone Programming</span></p>
-                    <h4 class="paper-metadata-heading">Abstract</h4>
-                    <p class="paper-abstract">A mixed-precision GPU-oriented optimization framework is developed for computing the minimum enclosing ball of a collection of balls. The approach is built on an equivalent second-order cone programming reformulation and a relative-type inexact proximal augmented Lagrangian method (ripALM), which provides a high-accuracy optimization backbone while solving the inner subproblems only to a progress-dependent relative accuracy. The proximal augmented Lagrangian inherits a constraint-wise separable structure: its objective, gradient, generalized Hessian, and multiplier updates can be efficiently evaluated on GPUs as parallel maps over the input balls followed by reductions. To further improve efficiency, a mixed-precision reduction strategy is introduced. A low-precision ripALM run identifies balls near the approximate boundary, a high-precision ripALM run refines the reduced problem, and a full a posteriori feasibility check detects and reintroduces any violated discarded balls. Thus, low precision is used only for screening and warm starting, while the final feasibility is enforced against the original problem. Numerical experiments show that ripALM and mixed-precision ripALM achieve high accuracy and are substantially faster than the tested CPU-based geometric software and general-purpose conic solvers on large-scale instances.</p>
-                    <p class="paper-contribution">Low-precision screening and high-precision refinement reduce GPU work while retaining an accurate, fully checked enclosing ball.</p>
-                  </div>
-                  <figure class="paper-visual">
-              <a class="paper-image-link" href="../images/research/meb-baseline-comparison.png" aria-label="Open full-size visual: Runtime comparison of mp-ripALM, ripALM, CGAL, SCS, and CLARABEL for minimum enclosing balls in dimension 50.">
-                <img src="../images/research/meb-baseline-comparison.png" width="744" height="474" alt="Runtime in seconds on a logarithmic scale for mp-ripALM, ripALM, CGAL, SCS, and CLARABEL, with 1,000 to 100,000 balls in dimension 50." loading="lazy" decoding="async">
-              </a>
-              <figcaption>Runtime at d = 50 for 1,000–100,000 balls. ripALM and mp-ripALM run on GPU; CGAL, SCS, and CLARABEL run on CPU.</figcaption>
-            </figure>
-                </div>
-              </details>
-            </li>
             <li id="paper-260421849">
               <h3><a class="paper-title" href="https://arxiv.org/abs/2604.21849">Beyond expected information gain: stable Bayesian optimal experimental design with integral probability metrics and plug-and-play extensions</a></h3>
               <p class="paper-authors">Di Wu, <strong>Ling Liang</strong>, Haizhao Yang</p>
@@ -261,6 +238,30 @@
         <section class="publication-section" id="publications" aria-labelledby="publications-title">
           <h2 id="publications-title">Papers</h2>
           <ol class="publication-list">
+            <li id="paper-260531425">
+              <h3><a class="paper-title" href="https://arxiv.org/abs/2605.31425">Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</a></h3>
+              <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
+              <p class="paper-details">ACM Transactions on Mathematical Software, accepted, 2026. <span class="resource-mark journal-mark">TOMS</span>, <a class="arxiv-link" href="https://arxiv.org/abs/2605.31425" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+              <p class="paper-details"><a href="https://dl.acm.org/pb-assets/static_journal_pages/toms/pdf/ACM_TOMS_CfP_SI_Memoriam_Stan_Tomov-1780684048777.pdf">Special Issue on Mixed-Precisions Techniques for HPC Algorithms and Applications using Hardware Accelerators</a>.</p>
+              <details class="paper-highlight">
+                <summary>Research highlight<span class="visually-hidden">: Mixed-precision GPU acceleration for large-scale minimum enclosing ball problems</span></summary>
+                <div class="publication-highlight">
+                  <div class="paper-text">
+                    <h4 class="paper-metadata-heading">Keywords</h4>
+                    <p class="paper-tags"><span>Minimum Enclosing Ball</span> <span>Relative-type Inexact Proximal Augmented Lagrangian Method</span> <span>Mixed-precision</span> <span>GPU Acceleration</span> <span>Second-order Cone Programming</span></p>
+                    <h4 class="paper-metadata-heading">Abstract</h4>
+                    <p class="paper-abstract">A mixed-precision GPU-oriented optimization framework is developed for computing the minimum enclosing ball of a collection of balls. The approach is built on an equivalent second-order cone programming reformulation and a relative-type inexact proximal augmented Lagrangian method (ripALM), which provides a high-accuracy optimization backbone while solving the inner subproblems only to a progress-dependent relative accuracy. The proximal augmented Lagrangian inherits a constraint-wise separable structure: its objective, gradient, generalized Hessian, and multiplier updates can be efficiently evaluated on GPUs as parallel maps over the input balls followed by reductions. To further improve efficiency, a mixed-precision reduction strategy is introduced. A low-precision ripALM run identifies balls near the approximate boundary, a high-precision ripALM run refines the reduced problem, and a full a posteriori feasibility check detects and reintroduces any violated discarded balls. Thus, low precision is used only for screening and warm starting, while the final feasibility is enforced against the original problem. Numerical experiments show that ripALM and mixed-precision ripALM achieve high accuracy and are substantially faster than the tested CPU-based geometric software and general-purpose conic solvers on large-scale instances.</p>
+                    <p class="paper-contribution">Low-precision screening and high-precision refinement reduce GPU work while retaining an accurate, fully checked enclosing ball.</p>
+                  </div>
+                  <figure class="paper-visual">
+              <a class="paper-image-link" href="../images/research/meb-baseline-comparison.png" aria-label="Open full-size visual: Runtime comparison of mp-ripALM, ripALM, CGAL, SCS, and CLARABEL for minimum enclosing balls in dimension 50.">
+                <img src="../images/research/meb-baseline-comparison.png" width="744" height="474" alt="Runtime in seconds on a logarithmic scale for mp-ripALM, ripALM, CGAL, SCS, and CLARABEL, with 1,000 to 100,000 balls in dimension 50." loading="lazy" decoding="async">
+              </a>
+              <figcaption>Runtime at d = 50 for 1,000–100,000 balls. ripALM and mp-ripALM run on GPU; CGAL, SCS, and CLARABEL run on CPU.</figcaption>
+            </figure>
+                </div>
+              </details>
+            </li>
             <li id="paper-260504175">
               <h3><a class="paper-title" href="https://arxiv.org/abs/2605.04175">A provably convergent and practical algorithm for Gromov-Wasserstein optimal transport</a></h3>
               <p class="paper-authors"><strong>Ling Liang</strong>, Lei Yang</p>
