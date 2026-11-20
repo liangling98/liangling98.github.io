@@ -39,6 +39,56 @@
         <section class="publication-section" id="preprints" aria-labelledby="preprints-title">
           <h2 id="preprints-title">Preprints</h2>
           <ol class="publication-list">
+            <li id="paper-261110050">
+              <h3><a class="paper-title" href="https://arxiv.org/abs/2611.10050">Selected-Risk Calibration for Feasibility at Returned Decisions</a></h3>
+              <p class="paper-authors">Raghav Thind, Youran Sun, <strong>Ling Liang</strong>, Haizhao Yang</p>
+              <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2611.10050" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>.</p>
+              <details class="paper-highlight">
+                <summary>Research highlight<span class="visually-hidden">: Selected-Risk Calibration for Feasibility at Returned Decisions</span></summary>
+                <div class="publication-highlight">
+                  <div class="paper-text">
+                    <h4 class="paper-metadata-heading">Keywords</h4>
+                    <p class="paper-tags"><span>Optimization with Constraint Learning</span> <span>Conformal Prediction</span> <span>Feedback Covariate Shift</span> <span>Selected Risk</span></p>
+                    <h4 class="paper-metadata-heading">Abstract</h4>
+                    <p class="paper-abstract">When an optimization problem uses a surrogate constraint, a decision that is feasible for the surrogate need not be feasible for the true constraint. We propose Selected-Risk Calibration (SRC), a framework that calibrates a learned constraint against the optimizer’s returned decisions for objectives drawn from a given distribution. SRC guarantees that, with probability at least 1 − δ, every margin it certifies on held-out objectives has selected risk, the probability that the returned decision is infeasible, of at most γ. We also show that the random-input coverage guarantee of split conformal prediction does not bound the selected risk, and that likelihood-ratio reweighting for feedback covariate shift does not apply when the learned constraint is active at the returned decision. Our experiments show that a conformal margin covering about 90% of random inputs covered as few as 17% of the returned decisions, and every certified margin had a violation rate below its target on unseen objectives. Moreover, at equal cost, SRC’s correction had fewer or equal infeasible solutions to the baselines in 57 of 62 comparisons. The SRC framework applies to any setting in which a surrogate model chooses a decision whose feasibility can be verified for a sample of instances.</p>
+                    <p class="paper-contribution">Calibrating learned constraints on the solver’s returned decisions provides finite-sample control of decision infeasibility over a specified objective distribution.</p>
+                  </div>
+                  <figure class="paper-visual">
+                    <table>
+                      <caption>Calibrating feasibility at returned decisions</caption>
+                      <thead><tr><th scope="col">Stage</th><th scope="col">Role</th></tr></thead>
+                      <tbody><tr><th scope="row">Match cost</th><td>Tune candidate margins on one objective set.</td></tr><tr><th scope="row">Select</th><td>Choose a margin using a separate objective set.</td></tr><tr><th scope="row">Certify</th><td>Check returned decisions on previously unused objectives.</td></tr><tr><th scope="row">Deploy</th><td>Use the cheapest certified margin, or abstain.</td></tr></tbody>
+                    </table>
+                    <figcaption>Certification controls infeasibility risk over the specified objective distribution, under the paper’s independence and testing assumptions.</figcaption>
+                  </figure>
+                </div>
+              </details>
+            </li>
+            <li id="paper-261040560">
+              <h3><a class="paper-title" href="https://arxiv.org/abs/2610.40560">FARMS: A Verifiable Foundation for Automated Computational Science</a></h3>
+              <p class="paper-authors">Di Wu, <strong>Ling Liang</strong>, Haizhao Yang</p>
+              <p class="paper-details">2026. <a class="arxiv-link" href="https://arxiv.org/abs/2610.40560" aria-label="arXiv"><span class="arxiv-wordmark">arXiv</span></a>, <a class="resource-link" href="https://github.com/Woody2357/FARMS-Computational-Science" aria-label="code"><span class="resource-mark code-mark">code</span></a>.</p>
+              <details class="paper-highlight">
+                <summary>Research highlight<span class="visually-hidden">: FARMS: A Verifiable Foundation for Automated Computational Science</span></summary>
+                <div class="publication-highlight">
+                  <div class="paper-text">
+                    <h4 class="paper-metadata-heading" title="Topics drawn from the abstract; the paper does not list keywords.">Topics</h4>
+                    <p class="paper-tags"><span>Automated Computational Science</span> <span>Autoformalization</span> <span>Semantic Review</span> <span>Numerical Linear Algebra</span> <span>Numerical PDEs</span></p>
+                    <h4 class="paper-metadata-heading">Abstract</h4>
+                    <p class="paper-abstract">Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that transforms computational mathematics into AI-ready computing knowledge. FARMS connects formal statements to source context, algorithmic meaning and quantitative guarantees through source preparation, reusable representations and semantic review. Across 171 targets in randomized numerical linear algebra and numerical partial differential equations, 157 were accepted by the pipeline, with mean estimated costs of US $0.85–2.29 per target across sources. Lean-checked implications from explicit source premises connect selected statements to computational skills, illustrated by a heat-flow solve and wave-response compression. FARMS therefore supports an affordable, reusable knowledge foundation for trustworthy automated computational science.</p>
+                    <p class="paper-contribution">Source-linked formal statements, semantic review, and checked implications connect computational mathematics to reusable numerical skills with explicit applicability conditions.</p>
+                  </div>
+                  <figure class="paper-visual">
+                    <table>
+                      <caption>From literature to reusable computing knowledge</caption>
+                      <thead><tr><th scope="col">Stage</th><th scope="col">What it preserves</th></tr></thead>
+                      <tbody><tr><th scope="row">Source preparation</th><td>Definitions, assumptions, and algorithm context.</td></tr><tr><th scope="row">Formalization and review</th><td>Reusable Lean representations aligned with source meaning.</td></tr><tr><th scope="row">Computational skills</th><td>Checked implications from explicit source premises.</td></tr></tbody>
+                    </table>
+                    <figcaption>Demonstrated in a steady heat-flow solve and wave-response compression; source statements remain explicit premises.</figcaption>
+                  </figure>
+                </div>
+              </details>
+            </li>
             <li id="paper-261005742">
               <h3><a class="paper-title" href="https://arxiv.org/abs/2610.05742">An Inexact Halpern-accelerated Preconditioned Generalized Proximal Point Algorithm for the Maximal Monotone Inclusion Problem</a></h3>
               <p class="paper-authors">Lei Yang, Haihang Lan, Di Hou, <strong>Ling Liang</strong>, Kim-Chuan Toh</p>
